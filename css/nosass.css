@@ -34,6 +34,19 @@
 	    font-size: 20px !important;
 	    top: 140px !important;
 	}
+	.page .banner-page.banner-loguber {
+	    margin-top: 28px;
+	}
+	.page .banner-page {
+	    height: 160px !important;
+	}
+	.page .banner-page h1 {
+	    top: 108px !important;
+	    left: 10px !important;
+	}
+	.page section {
+	    margin: 20px 16px !important;
+	}
 }
 
 /*stiky-footer-navbar.scss*/
@@ -47,7 +60,7 @@
 /*carousel.scss*/
 @media screen and (max-width: 768px) {
   .carousel-caption {
-    left: -75% !important;
+    left: -65% !important;
     bottom: -160px !important;
   }
 }
