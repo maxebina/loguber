@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+ 
+  RewriteRule ^index/?$ lu/ [NC,L]
+  RewriteRule ^loguber/?$ lu/loguber.php [NC,L]
+  RewriteRule ^servicos/?$ lu/servicos.php [NC,L]
+  RewriteRule ^rastreamento/?$ lu/rastreamento.php [NC,L]
+  RewriteRule ^tecnologia/?$ lu/tecnologia.php [NC,L]
+  RewriteRule ^franquia/?$ lu/franquia.php [NC,L]
+  RewriteRule ^noticias/?$ lu/noticias.php [NC,L]
+  RewriteRule ^motoristas/?$ lu/motoristas.php [NC,L]
+  RewriteRule ^contato/?$ lu/contato.php [NC,L]
+  RewriteRule ^responsabilidade-social/?$ lu/responsabilidade-social.php [NC,L]
+  RewriteRule ^trabalhe-conosco/?$ lu/trabalhe-conosco.php [NC,L]
+</IfModule>

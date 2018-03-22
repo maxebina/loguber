@@ -1,0 +1,157 @@
+#myCarousel {
+  .thumbnail {
+    margin-bottom: 0;
+    img {
+      background-size: cover;
+    }
+  }
+}
+
+.carousel-control {
+  color: #fff;
+  top: 44%;
+  bottom: auto;
+  opacity: 1;
+  transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  &:hover {
+    color: #3a96d3;
+  }
+  &.left {
+    background-image: none !important;
+  }
+  &.right {
+    background-image: none !important;
+    left: auto;
+    right: -15px;
+  }
+  &.left {
+    right: auto;
+    left: -15px;
+  }
+}
+
+.carousel-caption {
+  background: url(../img/caption-bg.png);
+  height: 195px;
+  text-align: center;
+  width: 683px;
+  h2 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  p {
+    color: #fff;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 639px) {
+  .carousel-caption {
+    background: none;
+    h2 {
+      text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.9);
+      right: 100px;
+    }
+    p {
+      display: none !important;
+      visibility: hidden;
+    }
+    a {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .carousel-caption {
+    padding-bottom: 0;
+    .btn {
+      padding: 2px 3px;
+    }
+    h2 {
+      font-size: 30px;
+      padding: 10px;
+      margin: 10px 0;
+      padding: 0;
+    }
+  }
+}
+.carousel-caption {
+  animation-delay: 5s, 5s;
+  bottom: 0;
+  display: block;
+  left: 41%;
+  padding: 0 30px 0 270px ;
+  position: absolute;
+  right: 0%;
+  animation: caption-bg-animation 2s ease-out;
+  -o-animation: caption-bg-animation 2s ease-out;
+  -ms-animation: caption-bg-animation 2s ease-out;
+  -moz-animation: caption-bg-animation 2s ease-out;
+  -webkit-animation: caption-bg-animation 2s ease-out;
+
+  text-align: left;
+  text-shadow: none;
+}
+@media screen and (max-width: 768px) {
+  #myCarousel {
+    margin-top: 115px;
+  }  
+  .carousel-indicators {
+    display: none;
+  }
+  .carousel-caption {
+    left: 10%;
+    bottom: -60px;
+    h2 {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    p {      
+      font-size: 14px;
+    }
+  }
+}
+
+@keyframes caption-bg-animation {
+  0% {
+    left: 200%;
+  }
+  50% {
+    left: 200%;
+  }
+  100% {
+    left: 40%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .carousel-caption {
+    left: 31%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption {
+    left: 11%;
+    bottom: -50px;
+    h2 {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    p {      
+      font-size: 14px;
+    }
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .carousel-control {
+    top: 50%;
+  }
+}

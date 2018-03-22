@@ -1,0 +1,51 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+.footer {
+  background: #2a3f50;
+  border-bottom: 15px solid #ea4f3d;
+  bottom: 0;
+  color: #fff;
+  padding-top: 20px;
+  text-align: center;
+  /* Set the fixed height of the footer here */
+}
+
+.footer ul {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.footer ul.social-menu li {
+  display: inline;
+  margin-left: 5px;
+}
+
+.footer ul.social-menu li span {
+  color: #fff;
+  transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
+
+.footer ul.social-menu li span:hover {
+  color: #3a96d3;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+.container .text-muted {
+  color: #fff;
+  margin: 20px 0;
+}
+
+.container .text-muted a {
+  font-weight: bold;
+  color: #fff;
+}
+
+code {
+  font-size: 80%;
+}

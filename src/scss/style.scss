@@ -1,0 +1,782 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .container {
+      width: 1156px;
+  }
+}
+header {
+  .main-menu {
+    background: #fff;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 62px;
+    padding: 12px 23px;
+    transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+  }
+  .secondary-menu {
+    font-size: 14px;
+    margin-right: 20px;
+    ul {
+      transition: margin-top 1s ease;
+      -o-transition: margin-top 1s ease;
+      -ms-transition: margin-top 1s ease;
+      -moz-transition: margin-top 1s ease;
+      -webkit-transition: margin-top 1s ease;
+      float: right;
+      margin-top: 20px;
+      li {
+        border-left: 1px solid #fff;
+        display: inline;
+        padding: 0 10px;
+        a {
+          color: #fff;
+          text-shadow: 1px 1px 1px #000;
+        }
+        &#currentpage a {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+      li:first-child {
+        border-left: none;
+      }
+    }
+  }
+}
+
+header {
+  &#nav {
+    &.navbar-default {
+      margin: 0 80px;
+    }
+  }
+}
+
+/* Navigation Styles Starts */
+
+.dropdown-menu.nav {
+  top: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+#nav {
+  &.navbar {
+    margin-bottom: 0;
+    min-height: 92px;
+  }
+  .navbar-brand {
+    height: auto !important;
+    padding: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+    transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+  }
+  &.navbar-default {
+    border: none;
+  }
+}
+
+.navbar-static-top {
+  border: none;
+}
+
+#nav {
+  &.navbar-default {
+    .navbar-nav {
+      >li {
+        transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+      &:hover {
+        background: #2a3f50;
+      }
+      background: #3a96d3;
+      padding: 4px 8px;
+      &:first-child {
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+      }
+      &:last-child {
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+      }
+      &#currentpage {
+        background: #2a3f50;
+      }
+        >a {
+          color: #fff;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 22px;
+          padding: 0 0 0 0px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  i.fa-angle-down {
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  .navbar-nav > li.active > a {
+    background: none;
+  }
+  &.navbar-default .navbar-nav > .open > a {
+    background: none;
+    &:hover, &:focus {
+      background: none;
+    }
+  }
+  .dropdown-menu > .active > a {
+    background: none;
+    &:hover, &:focus {
+      background: none;
+    }
+  }
+  .nav {
+    margin-top: -34px !important;
+    float: right;    
+    clear: both;
+  }
+  .navbar-nav > li {
+    &:hover > a, &.active > a {
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      display: inline;
+    }
+    > a {
+      &:hover, &:focus {
+        color: #fff;
+        border-bottom: 1px solid #fff;
+        display: inline;
+      }
+    }
+  }
+  .dropdown-menu {
+    background-color: #2c2c2c;
+    padding: 10px 0;
+    left: 0;
+    border: none;
+    > {
+      li > a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        &:hover, &:focus {
+          background-color: #535353;
+        }
+      }
+      .active > a {
+        background-color: #a73d3b;
+        &:hover, &:focus {
+          background-color: #a73d3b;
+        }
+      }
+    }
+  }
+}
+
+/* welcome box */
+
+.welcome-box {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #2c2c2c;
+  h3 {
+    
+  }
+  .glyphicon {
+    font-size: 74px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .welcome-box .glyphicon {
+    font-size: 40px;
+  }
+}
+
+/* footer */
+@media (min-width: 320px) and (max-width: 1023px) {
+  footer .container .text-muted {
+    margin: 5px 0 0 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 639px) {
+  .footer {
+    height: 90px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .featured-motoristas, .featured-noticias {
+    &::before {
+      width: 94% !important;
+    }
+  }  
+  #nav {
+    &.navbar-default {
+      .navbar-nav {
+        >li {
+          padding: 2px 6px;
+          >a {
+            font-size: 10px;
+          }
+          &:hover {
+            line-height: 19px;
+          }
+        }
+      }
+    }
+  }
+  header {
+    &#nav {
+      &.navbar-default {
+        margin: 0 50px;
+      }
+    }
+    .main-menu {
+      margin-top: 32px;
+      padding: 12px 23px;
+    }
+    .secondary-menu {
+      ul {
+        margin-top: 5px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .featured-motoristas, .featured-noticias {
+    &::before {
+      width: 92.2% !important;
+      top: 0px !important;
+    }
+  }
+}
+@media (min-width: 376px) and (max-width: 667px) {
+  .featured-motoristas, .featured-noticias {
+    &::before {
+      width: 95.7% !important;
+      top: 0px !important;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  body>.container {
+    margin: 0 10px;
+  }
+  #nav {
+    &.navbar-default {
+      .navbar-nav {
+        >li {
+          &:first-child {
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+          }
+          &:last-child {
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+          }
+        }
+      }
+    }
+    .nav {
+      margin-top: 0px !important;
+      width: 100%;
+      li {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+  header {
+    &#nav {
+      &.navbar-default {
+        margin: 0 15px 0 11px;
+      }
+    }
+    .secondary-menu {
+      margin-right: 10px;
+      ul {
+        margin-top: 5px;
+        li {
+          border-left: 1px solid #000;
+          a {
+            color: #000;
+            font-size: 11px;
+            text-shadow: none;
+          }
+          &#currentpage a {
+            color: #000;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .main-menu {
+      margin-top: 28px;
+      padding: 12px 23px;
+      margin-left: 0px;
+      margin-right: 0px; 
+    }
+    .navbar-brand {
+      width: 200px;
+    }
+  }
+  .navbar-toggle {
+    margin-bottom: 0px;
+    margin-right: -88px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .featured-section {
+    .row {
+      a {
+        span {
+          width: 96.2% !important;
+        }
+      }
+    }
+  }
+  .featured-motoristas, .featured-noticias {
+    &::before {
+      width: 96.2% !important;
+      top: 0px !important;
+    }
+  }
+  #nav {
+    .nav {
+      margin-top: 16px !important;
+    }
+    &.navbar-default {
+      .navbar-nav {
+        >li {
+          padding: 2px 6px;
+          >a {
+            font-size: 10px;
+          }
+          &:hover {
+            line-height: 19px;
+          }
+        }
+      }
+    }
+  }
+  header {
+    .navbar-brand {
+      width: 200px;
+    }
+    .main-menu {
+      margin-top: 32px;
+      padding: 12px 23px;
+    }
+    .secondary-menu {
+      ul {
+        margin-top: 5px;
+      }
+    }
+  }
+}
+/* welcome box */
+h1 {
+  width: 100%;
+  margin: 0 0 40px 0;
+  padding: 8px 5px;
+  color: #fff;
+  text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.9);
+}
+/* one page wonder */
+.featurette {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.featurette-image {
+  &.pull-left {
+    margin-right: 40px;
+  }
+  &.pull-right {
+    margin-left: 40px;
+  }
+}
+.featurette-heading {
+  font-size: 50px;
+}
+@media (max-width: 1680px) {
+  .featurette-divider {
+    margin: 50px 0;
+  }
+  .featurette-image {
+    &.pull-left {
+      margin-right: 20px;
+    }
+    &.pull-right {
+      margin-left: 20px;
+    }
+  }
+  .featurette-heading {
+    font-size: 35px;
+  }
+  .featurette-image {
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 991px) {
+  .featurette-divider {
+    margin: 40px 0;
+  }
+  .featurette-image {
+    max-width: 25%;
+    &.pull-left {
+      margin-right: 10px;
+    }
+    &.pull-right {
+      margin-left: 10px;
+    }
+  }
+  .featurette-heading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .featurette-divider {
+    margin: 40px 0;
+  }
+  .featurette-heading {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 668px) {
+  .featurette-divider {
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .featurette-divider {
+    margin: 10px 0;
+  }
+  .featurette-image {
+    max-width: 100%;
+    &.pull-left {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    &.pull-right {
+      margin-bottom: 10px;
+      margin-left: 0;
+    }
+  }
+}
+.featurette-divider {
+  margin-top: 40px;
+}
+
+/* projetos */
+
+.portfolio-item {
+  margin-bottom: 25px;
+}
+
+.secondary-menu #currentpage a {
+  color: #a3a3a3;
+  text-decoration: underline;
+}
+
+.main-menu {
+  li {
+    &#currentpage {
+      background: #ff0000;
+      a {
+        border-bottom: 1px solid #fff;
+        display: inline;
+        padding-bottom: 2px;
+      }
+    }
+  }
+  ul {
+    &.social-menu {
+      float: right;
+      margin-bottom: 0px;
+      transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -webkit-transition: all 1s ease;
+      li {
+        display: inline;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+.dados-contato {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+@media (max-width: 767px) {
+  #nav .dropdown-menu {
+    width: 100%;
+  }
+  .navbar-collapse.in {
+    overflow: hidden;
+  }
+  .collapse {
+    border-color: #fff;
+    margin-left: -15px; 
+    padding-left: 0px;
+  }
+  .navbar-collapse {
+    border-top: none;
+  }
+}
+
+.btn {
+  background: #2a3f50;
+  border: none;
+  transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;
+  -ms-transition: background 0.5s ease;
+  -moz-transition: background 0.5s ease;
+  -webkit-transition: background 0.5s ease;
+  &:hover {
+    background: #43637d;
+  }
+}
+
+.newsletter-section, .acompanhe-carga-section {
+  margin-top: 40px;
+  padding-top: 10px;
+  text-align: center;
+  h3 {
+    color: #2a3f50;
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+.newsletter-section {
+  background: #3a96d3;
+}
+.acompanhe-carga-section {
+  background: #ea4f3d;
+  padding-bottom: 20px;
+}
+.featured-section {
+  margin: 40px 0;
+  .row {
+    div {
+      /*padding: 0;*/
+    }
+    a {
+      &:hover {
+        text-decoration: none;
+        h4, p {
+          top: 140px;
+        }
+        span {
+          background: #3a96d3;
+          opacity: 0.5;
+        }
+        button {
+          opacity: 1;
+        }
+      }
+      span {
+        background: #3a96d3;
+        height: 483px;
+        opacity: 0;
+        position: absolute;
+        width: 95%;
+        transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+  h4, p {
+    transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+  }
+  .row-featured-btn {
+    text-align: center;
+    margin-top: 160px;
+    button {
+      background: none;
+      border: 2px solid #fff;
+      border-radius: 6px;
+      color: #fff;
+      font-size: 24px;
+      opacity: 0;
+      padding: 10px 16px;
+      position: relative;
+      transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      &:hover {
+        background: none;
+        color: #fff;
+      }
+    }
+  }
+}
+.featured-motoristas, .featured-noticias {
+  &::before {
+    content:"";
+    display: inline-block;
+    height: 483px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 95%;
+    z-index: 0;
+    background-color: rgba(42, 63, 80, .6);
+  }
+  background-position: center;
+  background-size: cover;
+  display: block;
+  min-height: 483px;
+  h4, p {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    color: #fff;
+  }
+  h4 {
+    top: 190px;
+    font-family: 'Zilla Slab', serif;
+    font-size: 50px;
+  }
+  p {
+    top: 210px;
+    font-size: 22px;
+    margin: 0 30px;
+  }
+}
+.featured-motoristas {
+  background-image: url(../img/featured-motoristas.png);
+}
+.featured-noticias {  
+  background-image: url(../img/featured-noticias.png);
+}
+
+.float-right {
+  float: right;
+}
+
+.carousel-indicators {
+  li {
+    background: #fff;
+    box-shadow: 1px 1px 1px #000;
+    border: 2px solid #fff;
+    height: 18px;
+    margin: 4px;
+    width: 18px;
+    &.active {
+      height: 18px;
+      width: 18px;
+      background: #ea4f3d;
+      margin: 4px;
+    }
+  }
+}
+
+body {
+  background: #d9d9d9;
+  >.container {
+    background: #f2f2f2;
+    border-left: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+    padding: 0;
+    &.page {
+      padding: 0px 15px 0;
+      margin-bottom: 260px;
+    }
+  }
+}
+
+.page {
+  .banner-page {
+    background-position: center;
+    background-size: cover;
+    height: 235px;
+    width: 100%;
+    &.banner-loguber {      
+      background-image: url(../img/banner-loguber.png);
+    }
+    h1 {
+      font-family: 'Zilla Slab', serif;
+      font-size: 30px;
+      left: 51px;
+      position: relative;
+      top: 174px;
+    }
+  }
+}
+header {
+  &.shrink {
+    .main-menu {
+      margin-top: 18px;
+      opacity: 0.9;
+      ul {
+        &.social-menu {
+          margin-bottom: 42px;
+        }
+      }
+    }
+    .secondary-menu {
+      ul {
+        margin-top: -1px;
+      }      
+    }
+    .navbar-brand {
+      width: 200px;
+    }
+  }
+}
+
+@import "sticky-footer-navbar";
+@import "carousel";
