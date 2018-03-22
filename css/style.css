@@ -712,11 +712,6 @@ body > .container {
   padding: 0;
 }
 
-body > .container.page {
-  padding: 0px 15px 0;
-  margin-bottom: 260px;
-}
-
 .page .banner-page {
   background-position: center;
   background-size: cover;
@@ -734,6 +729,10 @@ body > .container.page {
   left: 51px;
   position: relative;
   top: 174px;
+}
+
+.page section {
+  margin: 20px 60px;
 }
 
 header.shrink .main-menu {
