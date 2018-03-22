@@ -7,6 +7,8 @@
     <meta name="description" content="<?php echo $your_meta_description ?>" />
     <title>LOGUBER - <?php echo $thisPage ?></title>
 
+    <link href="css/nosass.css" rel="stylesheet">
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

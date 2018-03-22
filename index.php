@@ -76,13 +76,13 @@
         <p>
             Localize sua carga em tempo real
         </p>
-        <a href="#" class="btn btn-primary" role="button">Rastrear <i class="fa fa-arrow-right"></i></a>
+        <a href="rastreamento" class="btn btn-primary" role="button">Rastrear <i class="fa fa-arrow-right"></i></a>
     </div>
 
     <div class="featured-section">
         <div class="row">
             <div class="col-md-6">
-                <a href="#">
+                <a href="motoristas">
                     <div class="featured-motoristas">
                         <span></span>
                         <h4>MOTORISTAS</h4>
@@ -94,7 +94,7 @@
                 </a>
             </div>
             <div class="col-md-6">
-                <a href="#">
+                <a href="noticias">
                     <div class="featured-noticias">
                         <span></span>
                         <h4>NOTÍCIAS</h4>
