@@ -1,63 +1,114 @@
-/*style.scss line 318*/
+.page h2, .page h3, .page h4 {
+	font-family: 'Zilla Slab', serif;
+    color: #2a3f50;
+}
+.page h2 {
+	font-size: 30px;
+}
+.page h3 {
+	font-size: 22px;
+	font-weight: bold;
+}
+.page h4 {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.page p {
+	font-size: 16px;
+}
+.page .blue-strip {
+	background: #3a96d3;
+	margin: 40px 0;
+	text-align: center;
+}
+.page .white-panel {
+	background: #fff;
+	border-radius: 6px;
+	margin: 40px 0;
+	padding: 10px;
+}
+.page .white-panel h3, .page .white-panel p {
+	margin: 10px;
+}
+.baseboard.loguber {
+	min-height: 340px;
+}
+.baseboard.loguber .item {
+	background: #c93e2e;
+	bottom: 0;
+	display: block;
+	height: 20px;
+	position: absolute;
+	width: 95%;
+}
+.baseboard.loguber .item span.right-t, .baseboard.loguber .item span.left-t {
+    width: 20px;
+    height: 20px;
+    border: 10px solid;
+    display: block;
+}
+.baseboard.loguber .item span.right-t {
+    border-color: #f2f2f2 #f2f2f2 #c93e2e #c93e2e;
+    float: right;
+}
+.baseboard.loguber .item span.left-t {
+	border-color: #f2f2f2 #c93e2e #c93e2e #f2f2f2;
+    float: left;
+}
+.baseboard.loguber.image {
+	background-image: url(../img/featured-motoristas.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    min-height: 370px;
+    padding-top: 22px;
+}
+/*style.scss*/
 @media screen and (max-width: 768px) {
-	/*.newsletter-section, .acompanhe-carga-section {
-  		margin-top: 20px !important;
-  		padding: 0 10px;
-  	}*/  	
-  	/*.newsletter-section h3, .acompanhe-carga-section h3 {
-	    font-size: 22px !important;
-  		margin: 0;
-  	}*/
-  	/*.newsletter-section p, .acompanhe-carga-section p {
-    	font-size: 18px !important;
-  	}*/
-	/*.newsletter-section {
-		padding-bottom: 20px;
-	}*/
-	/*.featured-motoristas, .featured-noticias {
-		min-height: 345px !important;
-	}*/
-	/*.featured-motoristas::before, .featured-noticias::before {
-    	height: 345px !important;
-    }*/
-    /*.featured-section {
-		margin: 10px 0 !important;
-	}*/
-	/*.featured-motoristas h4, .featured-noticias h4 {
-	    font-size: 28px !important;
-	    top: 110px !important;
-	}*/
-	/*.featured-motoristas p, .featured-noticias p {
-	    font-size: 20px !important;
-	    top: 140px !important;
-	}*/
-	/*.page .banner-page.banner-loguber {
-	    margin-top: 28px;
-	}*/
-	/*.page .banner-page {
-	    height: 160px !important;
-	}*/
-	/*.page .banner-page h1 {
-	    top: 108px !important;
-	    left: 10px !important;
-	}*/
-	/*.page section {
-	    margin: 20px 16px !important;
-	}*/
+	.page h2, .page h3 {
+		text-align: center;
+	}
+	.page h2 {
+		font-size: 24px;
+		margin: 0;
+	}
+	.page h3 {
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	.page h4 {
+		font-size: 20px;
+	}
+	.page p {
+		font-size: 15px;
+		margin: 0 20px;
+	}
+	.baseboard.loguber {
+		padding-bottom: 30px;
+	}
+	.baseboard.loguber.image {
+	    min-height: 280px;
+	    padding-top: 22px;
+	}
+	.page .blue-strip {
+		background: #3a96d3;
+		margin: 20px 0;
+		text-align: center;
+	}
+	.page .white-panel {
+	    margin: 20px 0;
+	}
 }
 
 /*stiky-footer-navbar.scss*/
 @media screen and (max-width: 768px) {
-	/*.footer {
-		height: auto !important;
-		margin-bottom: 0px;
-	}*/
+
 }
 
 /*carousel.scss*/
 @media screen and (max-width: 768px) {
-  /*.carousel-caption {
-    left: -65% !important;
-    bottom: -160px !important;
-  }*/
+
 }
