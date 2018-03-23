@@ -122,6 +122,10 @@
   .carousel-caption p {
     font-size: 14px;
   }
+  .carousel-caption {
+    left: -65% !important;
+    bottom: -160px !important;
+  }
 }
 
 @keyframes caption-bg-animation {

@@ -46,3 +46,10 @@
 code {
   font-size: 80%;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    height: auto !important;
+    margin-bottom: 0px;
+  }
+}

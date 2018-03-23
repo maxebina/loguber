@@ -1,66 +1,63 @@
 /*style.scss line 318*/
 @media screen and (max-width: 768px) {
-	header#nav.navbar-default {
-	    margin: 0 15px 0 15px !important;
-	}
-	.newsletter-section, .acompanhe-carga-section {
+	/*.newsletter-section, .acompanhe-carga-section {
   		margin-top: 20px !important;
   		padding: 0 10px;
-  	}  	
-  	.newsletter-section h3, .acompanhe-carga-section h3 {
+  	}*/  	
+  	/*.newsletter-section h3, .acompanhe-carga-section h3 {
 	    font-size: 22px !important;
   		margin: 0;
-  	}
-  	.newsletter-section p, .acompanhe-carga-section p {
+  	}*/
+  	/*.newsletter-section p, .acompanhe-carga-section p {
     	font-size: 18px !important;
-  	}
-	.newsletter-section {
+  	}*/
+	/*.newsletter-section {
 		padding-bottom: 20px;
-	}
-	.featured-motoristas, .featured-noticias {
+	}*/
+	/*.featured-motoristas, .featured-noticias {
 		min-height: 345px !important;
-	}
-	.featured-motoristas::before, .featured-noticias::before {
+	}*/
+	/*.featured-motoristas::before, .featured-noticias::before {
     	height: 345px !important;
-    }
-    .featured-section {
+    }*/
+    /*.featured-section {
 		margin: 10px 0 !important;
-	}
-	.featured-motoristas h4, .featured-noticias h4 {
+	}*/
+	/*.featured-motoristas h4, .featured-noticias h4 {
 	    font-size: 28px !important;
 	    top: 110px !important;
-	}
-	.featured-motoristas p, .featured-noticias p {
+	}*/
+	/*.featured-motoristas p, .featured-noticias p {
 	    font-size: 20px !important;
 	    top: 140px !important;
-	}
-	.page .banner-page.banner-loguber {
+	}*/
+	/*.page .banner-page.banner-loguber {
 	    margin-top: 28px;
-	}
-	.page .banner-page {
+	}*/
+	/*.page .banner-page {
 	    height: 160px !important;
-	}
-	.page .banner-page h1 {
+	}*/
+	/*.page .banner-page h1 {
 	    top: 108px !important;
 	    left: 10px !important;
-	}
-	.page section {
+	}*/
+	/*.page section {
 	    margin: 20px 16px !important;
-	}
+	}*/
 }
 
 /*stiky-footer-navbar.scss*/
 @media screen and (max-width: 768px) {
-	.footer {
+	/*.footer {
 		height: auto !important;
 		margin-bottom: 0px;
-	}
+	}*/
 }
 
 /*carousel.scss*/
 @media screen and (max-width: 768px) {
-  .carousel-caption {
+  /*.carousel-caption {
     left: -65% !important;
     bottom: -160px !important;
-  }
+  }*/
 }

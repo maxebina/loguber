@@ -315,7 +315,7 @@ header {
   header {
     &#nav {
       &.navbar-default {
-        margin: 0 15px 0 11px;
+        margin: 0 15px 0 15px;
       }
     }
     .secondary-menu {
@@ -349,6 +349,52 @@ header {
   .navbar-toggle {
     margin-bottom: 0px;
     margin-right: -88px;
+  }
+  .newsletter-section, .acompanhe-carga-section {
+    margin-top: 20px !important;
+    padding: 0 10px;
+    h3 {
+      font-size: 22px !important;
+      margin: 0;
+    }
+    p {
+      font-size: 18px !important;
+    }
+  }
+  .newsletter-section {
+    padding-bottom: 20px;
+  }
+  .featured-motoristas, .featured-noticias {
+    min-height: 345px !important;
+    &::before {
+      height: 345px !important;
+    }
+    h4 {
+      font-size: 28px !important;
+      top: 110px !important;
+    }
+    p {
+      font-size: 20px !important;
+      top: 140px !important;
+    }
+  }
+  .featured-section {
+    margin: 10px 0 !important;
+  }
+  .page {
+    .banner-page {
+      height: 160px !important;
+      &.banner-loguber {
+        margin-top: 28px;
+      }
+      h1 {
+        top: 108px !important;
+        left: 10px !important;
+      }
+    }
+    section {
+      margin: 20px 16px !important;
+    }
   }
 }
 
@@ -779,3 +825,8 @@ header {
 
 @import "sticky-footer-navbar";
 @import "carousel";
+
+/*HELPES*/
+.fs-25 {
+   font-size: 25px;
+}
