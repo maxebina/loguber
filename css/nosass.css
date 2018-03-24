@@ -1,38 +1,5 @@
-.page h2, .page h3, .page h4 {
-	font-family: 'Zilla Slab', serif;
-    color: #2a3f50;
-}
-.page h2 {
-	font-size: 30px;
-}
-.page h3 {
-	font-size: 22px;
-	font-weight: bold;
-}
-.page h4 {
-	font-size: 24px;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-.page p {
-	font-size: 16px;
-}
-.page .blue-strip {
-	background: #3a96d3;
-	margin: 40px 0;
-	text-align: center;
-}
-.page .white-panel {
-	background: #fff;
-	border-radius: 6px;
-	margin: 40px 0;
-	padding: 10px;
-}
-.page .white-panel h3, .page .white-panel p {
-	margin: 10px;
-}
-.baseboard.loguber {
-	min-height: 340px;
+/*.baseboard.loguber {
+	min-height: 360px;
 }
 .baseboard.loguber .item {
 	background: #c93e2e;
@@ -57,17 +24,17 @@
     float: left;
 }
 .baseboard.loguber.image {
-	background-image: url(../img/featured-motoristas.png);
+	background-image: url(../img/featured-loguber.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
-    min-height: 370px;
+    min-height: 390px;
     padding-top: 22px;
-}
+}*/
 /*style.scss*/
 @media screen and (max-width: 768px) {
-	.page h2, .page h3 {
+	/*.page h2, .page h3 {
 		text-align: center;
 	}
 	.page h2 {
@@ -100,7 +67,7 @@
 	}
 	.page .white-panel {
 	    margin: 20px 0;
-	}
+	}*/
 }
 
 /*stiky-footer-navbar.scss*/

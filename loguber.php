@@ -12,7 +12,7 @@
                             <h2>TRANSPORTANDO PARA TODOS</h2>
                             <h3>Uma empresa constituída para atender uma nova forma de gestão em transportes de cargas no mercado.</h3>
                             <p>
-                                É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível. Muitos softwares de publicação e editores de páginas na internet agora usam Lorem Ipsum como texto-modelo padrão, e uma rápida busca por 'lorem ipsum' mostra vários websites ainda em sua fase de construção. 
+                                Profissionais com mais de 30 anos de experiência em transportes e gestão de recursos humanos, onde começa a surgir uma nova referencia e desenvolvimento comparceiros, desde a indústria, transportadoras e pessoas físicas, vamos transportar para todos, entendemos que a tecnologia faz com que a informação chegue mais rápido, porém não queremos perder o vínculo e instrução que visa o aumento e qualificação demotoristas autônomo no mercado, foi identificado no mercado, muitos autônomos que não conseguem um desenvolvimento por falta de capacitação e instrução das empresa (transportadoras) que acabam na informalidade perdendo diversas oportunidades.
                             </p>
                             <div class="item">
                                 <span class="left-t hidden-sm hidden-md hidden-lg"></span>
@@ -37,7 +37,7 @@
                             <div class="white-panel">
                                 <h4>Missão</h4>
                                 <p>
-                                    Missão missão missão missão missão missão missão missão missão missão missão missão missão missão missão missão.
+                                    Prestar serviços de gestão em logística, agregando valor aos nossos clientes, franqueados e colaboradores, buscando a inovação dos nossos processos com responsabilida de sócio-ambiental.
                                 </p>
                             </div>
                         </div>
@@ -53,7 +53,8 @@
                             <div class="white-panel">
                                 <h4>Valores</h4>
                                 <p>
-                                    Valores valores valores valores valores valores valores valores valores valores valores valores valores valores valores.
+                                    Valorizamos o fornecimento de um serviço objetivo, moderno e direto em ciclos de logística e transporte.
+                                    Nosso ideial é cruzar os caminhos dos envolvidos em uma gestão inteligente, transportando para todos.
                                 </p>
                             </div>
                         </div>

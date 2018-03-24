@@ -395,7 +395,40 @@ header {
     section {
       margin: 20px 16px !important;
     }
+    h2, h3 {
+      text-align: center;
+    }
+    h2 {
+      font-size: 24px !important;
+      margin: 0;
+    }
+    h3 {
+      font-size: 20px !important;
+      margin-bottom: 20px;
+    }
+    h4 {
+      font-size: 20px !important;
+    }
+    p {
+      font-size: 15px !important;
+      margin: 0 20px;
+    }
+    .blue-strip {
+      margin: 20px 0 !important;
+    }
+    .white-panel {
+      margin: 20px 0 !important;
+    }
   }
+  .baseboard {
+    &.loguber {
+      padding-bottom: 30px;
+      &.image {
+        min-height: 280px !important;
+        padding-top: 22px;
+      }
+    }
+  }  
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -795,11 +828,82 @@ body {
       left: 51px;
       position: relative;
       top: 174px;
-    }
+    }    
   }
   section {
     margin: 20px 60px;
   }
+  h2, h3, h4 {
+    font-family: 'Zilla Slab', serif;
+    color: #2a3f50;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 16px;
+  }
+  .blue-strip {
+    background: #3a96d3;
+    margin: 40px 0;
+    text-align: center;
+  }
+  .white-panel {
+    background: #fff;
+    border-radius: 6px;
+    margin: 40px 0;
+    padding: 10px;
+    h3, p {
+      margin: 10px;
+    }
+  }
+  .baseboard {
+    &.loguber {
+      min-height: 360px;
+      &.image {
+        background-image: url(../img/featured-loguber.png);
+          background-position: bottom;
+          background-repeat: no-repeat;
+          background-size: contain;
+          display: block;
+          min-height: 390px;
+          padding-top: 22px;
+      }
+    }
+    .item {
+      background: #c93e2e;
+      bottom: 0;
+      display: block;
+      height: 20px;
+      position: absolute;
+      width: 95%;
+      span {
+        &.right-t, &.left-t {
+          width: 20px;
+          height: 20px;
+          border: 10px solid;
+          display: block;
+        }
+        &.right-t {
+          border-color: #f2f2f2 #f2f2f2 #c93e2e #c93e2e;
+          float: right;
+        }
+        &.left-t {
+          border-color: #f2f2f2 #c93e2e #c93e2e #f2f2f2;
+          float: left;
+        }
+      }
+    }
+  }  
 }
 header {
   &.shrink {
