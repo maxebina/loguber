@@ -1,3 +1,21 @@
+.panel-title > a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f055";
+    padding-right: 5px;
+    transition: transform 0.5s ease;
+}
+.panel-title > a.collapsed:before {
+    float: right !important;
+    content:"\f055";
+    transform: rotate(-90deg);
+}
+.panel-title > a:hover, 
+.panel-title > a:active, 
+.panel-title > a:focus  {
+    text-decoration:none;
+}
+
 /*.baseboard.loguber {
 	min-height: 360px;
 }
