@@ -1,13 +1,13 @@
 .panel-title > a:before {
     float: right !important;
     font-family: FontAwesome;
-    content:"\f055";
+    content:"\f063";
     padding-right: 5px;
     transition: transform 0.5s ease;
 }
 .panel-title > a.collapsed:before {
     float: right !important;
-    content:"\f055";
+    content:"\f063";
     transform: rotate(-90deg);
 }
 .panel-title > a:hover, 
