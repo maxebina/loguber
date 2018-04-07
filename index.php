@@ -14,35 +14,35 @@
             <div class="item active">
                 <div class="thumbnail">                        
                     <div class="carousel-caption">
-                        <h2>Slide 1</h2>                            
+                        <h2>LOGUBER</h2>                            
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-                        <a href="#" class="btn btn-primary float-right" role="button">Saiba mais <i class="fa fa-arrow-right"></i></a>
+                        <a href="loguber" class="btn btn-primary float-right" role="button">Saiba mais <i class="fa fa-arrow-right"></i></a>
                     </div>
-                    <img src="img/slide-loguber-loguber.png" alt="Slide1">
+                    <img src="img/slide-loguber-loguber.jpg" alt="Slide LOGUBER">
                 </div>
             </div>
             <div class="item">
                 <div class="thumbnail">
-                    <img src="img/slide-loguber-loguber.png" alt="Slide2">
                     <div class="carousel-caption">
                         <div class="poly">
-                            <h2>Slide 2</h2>
+                            <h2>Tecnologia</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-                            <a href="#" class="btn btn-primary float-right" role="button">Saiba mais <i class="fa fa-arrow-right"></i></a>
+                            <a href="tecnologia" class="btn btn-primary float-right" role="button">Saiba mais <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
+                    <img src="img/slide-loguber-tecnologia.jpg" alt="Slide Tecnologia">
                 </div>
             </div>
             <div class="item">
                 <div class="thumbnail">
-                    <img src="img/slide-loguber-loguber.png" alt="Slide1">
                     <div class="carousel-caption">
                         <div class="poly">
-                            <h2>Slide 3</h2>
+                            <h2>Franquia</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-                            <a href="#" class="btn btn-primary float-right" role="button">Saiba mais <i class="fa fa-arrow-right"></i></a>
+                            <a href="franquia" class="btn btn-primary float-right" role="button">Saiba mais <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
+                    <img src="img/slide-loguber-franquia.jpg" alt="Slide Franquia">
                 </div>
             </div>
         </div><!-- End Carousel Inner -->
