@@ -58,7 +58,8 @@ header .secondary-menu ul li:first-child {
 }
 
 header#nav.navbar-default {
-  margin: 0 80px;
+  margin: 0 auto;
+  max-width: 1094px;
 }
 
 /* Navigation Styles Starts */
