@@ -799,6 +799,10 @@ body > .container {
   background-image: url(../img/banner-loguber.png);
 }
 
+.page .banner-page.banner-tecnologia {
+  background-image: url(../img/banner-tecnologia.png);
+}
+
 .page .banner-page h1 {
   font-family: 'Zilla Slab', serif;
   font-size: 30px;
@@ -890,6 +894,58 @@ body > .container {
 .page .baseboard .item span.left-t {
   border-color: #f2f2f2 #c93e2e #c93e2e #f2f2f2;
   float: left;
+}
+
+.panel-default {
+  border-color: #242f3f;
+  margin-bottom: 20px !important;
+}
+
+.panel-default .panel-heading {
+  background: #3a96d3;
+}
+
+.panel-default .panel-body {
+  border-top: 1px solid #242f3f !important;
+}
+
+.panel-default .panel-title > a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.panel-default .panel-title > a:before {
+  float: right !important;
+  font-family: FontAwesome;
+  content: "\f063";
+  padding-right: 5px;
+  transition: transform 0.5s ease;
+}
+
+.panel-default .panel-title > a:hover {
+  text-decoration: none;
+}
+
+.panel-default .panel-title > a:active {
+  text-decoration: none;
+}
+
+.panel-default .panel-title > a:focus {
+  text-decoration: none;
+}
+
+.panel-default .panel-title > a.collapsed:before {
+  float: right !important;
+  content: "\f063";
+  transform: rotate(-90deg);
+}
+
+.img-change {
+  margin-top: 188px;
+}
+
+.img-change img {
+  max-width: 317px;
 }
 
 header.shrink .main-menu {
@@ -1139,4 +1195,12 @@ code {
 /*HELPES*/
 .fs-25 {
   font-size: 25px;
+}
+
+.fr {
+  float: right;
+}
+
+.cb {
+  clear: both;
 }

@@ -820,8 +820,11 @@ body {
     background-size: cover;
     height: 235px;
     width: 100%;
-    &.banner-loguber {      
+    &.banner-loguber {
       background-image: url(../img/banner-loguber.png);
+    }
+    &.banner-tecnologia {
+      background-image: url(../img/banner-tecnologia.png);
     }
     h1 {
       font-family: 'Zilla Slab', serif;
@@ -906,6 +909,54 @@ body {
     }
   }  
 }
+
+.panel-default {
+  border-color: #242f3f;
+  margin-bottom: 20px !important;
+  .panel-heading {
+    background: #3a96d3;
+  }
+  .panel-body {
+    border-top: 1px solid #242f3f !important;
+  }
+  .panel-title {
+    >a {
+      color: #fff;
+      font-size: 18px;
+      &:before {
+        float: right !important;
+        font-family: FontAwesome;
+        content: "\f063";
+        padding-right: 5px;
+        transition: transform 0.5s ease;
+      }
+      &:hover {
+        text-decoration: none;
+      }
+      &:active {
+        text-decoration: none;
+      }
+      &:focus {
+        text-decoration: none;
+      }
+    }
+    >a.collapsed {
+      &:before {
+        float: right !important;
+        content: "\f063";
+        transform: rotate(-90deg);
+      }
+    }
+  }
+}
+
+.img-change {
+  margin-top: 188px;
+  img {
+    max-width: 317px;  
+  }
+}
+
 header {
   &.shrink {
     .main-menu {
@@ -934,4 +985,10 @@ header {
 /*HELPES*/
 .fs-25 {
    font-size: 25px;
+}
+.fr {
+  float: right;
+}
+.cb {
+  clear: both;
 }
