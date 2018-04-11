@@ -25,7 +25,9 @@
                       <p>
                         Imagem do Comprovante de Entrega fica disponível pela internet.
                       </p>
-                      <a href="" class="btn btn-primary fr cb" role="button">Clique aqui para ampliar <i class="fa fa-arrow-right"></i></a>
+                      <a href="" class="btn btn-primary fr cb" role="button" data-toggle="modal" data-target="#myModal">
+                        Clique aqui para ampliar <i class="fa fa-arrow-right"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -124,8 +126,8 @@
                 <img src="img/tec-comprovantes.png" id="img"/>
                 <div class="baseboard">
                     <div class="item">
-                        <span class="left-t hidden-sm hidden-md hidden-lg"></span>
-                        <span class="right-t"></span>
+                      <span class="left-t hidden-sm hidden-md hidden-lg"></span>
+                      <span class="right-t"></span>
                     </div>
                 </div>
               </div>
@@ -133,4 +135,21 @@
           </div>          
         </section>
 	    </div>
+
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Comprovante de Entrega</h4>
+            </div>
+            <div class="modal-body tac">              
+              <img src="img/tec-comprovantes.png"/>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
 	<?php include("footer.php"); ?>
