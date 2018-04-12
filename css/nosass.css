@@ -70,6 +70,21 @@
 	}*/
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+	header#nav.navbar-default {
+		max-width: 768px !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.panel-body {
+		margin: 0 0 0 15px !important;
+	}
+	.panel-body .btn {
+		margin-top: 20px !important;
+	}
+}
+
 /*stiky-footer-navbar.scss*/
 @media screen and (max-width: 768px) {
 
