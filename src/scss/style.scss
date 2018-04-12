@@ -275,6 +275,28 @@ header {
       top: 0px !important;
     }
   }
+  .panel-body {
+    border-top: 1px solid #242f3f !important;
+    margin: 0 0 0 15px;
+    p {
+      margin: 0 0 !important;
+    }
+    .btn {
+      margin-top: 20px;
+    }
+  }
+  .img-change {
+    margin-top: 40px !important;
+    img {
+      max-width: 295px !important;
+      margin-left: 19px;
+    }
+  }
+  .modal-body {
+    img {
+      width: 320px;      
+    }
+  }
 }
 @media (min-width: 376px) and (max-width: 667px) {
   .featured-motoristas, .featured-noticias {
@@ -385,9 +407,7 @@ header {
   .page {
     .banner-page {
       height: 160px !important;
-      &.banner-loguber {
-        margin-top: 28px;
-      }
+      margin-top: 28px;
       h1 {
         top: 108px !important;
         left: 10px !important;

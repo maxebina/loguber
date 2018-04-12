@@ -264,6 +264,26 @@ header#nav.navbar-default {
     width: 92.2% !important;
     top: 0px !important;
   }
+  .panel-body {
+    border-top: 1px solid #242f3f !important;
+    margin: 0 0 0 15px;
+  }
+  .panel-body p {
+    margin: 0 0 !important;
+  }
+  .panel-body .btn {
+    margin-top: 20px;
+  }
+  .img-change {
+    margin-top: 40px !important;
+  }
+  .img-change img {
+    max-width: 295px !important;
+    margin-left: 19px;
+  }
+  .modal-body img {
+    width: 320px;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 667px) {
@@ -361,8 +381,6 @@ header#nav.navbar-default {
   }
   .page .banner-page {
     height: 160px !important;
-  }
-  .page .banner-page.banner-loguber {
     margin-top: 28px;
   }
   .page .banner-page h1 {
