@@ -1,3 +1,6 @@
+.dn {
+	display: none;
+}
 /*.baseboard.loguber {
 	min-height: 360px;
 }

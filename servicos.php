@@ -6,13 +6,24 @@
                 <h1>SERVIÇOS</h1>
             </div>
     		<section>
-                <h2>TÍTULO SOBRE SERVIÇOS</h2>
                 <div class="row">
                     <div class="col-md-4">
-                        
+                        <div class="panel-shadow mb-20">
+                            <i class="fa fa-truck fa-4x" aria-hidden="true"></i>
+                            <h2>CARGA LOTAÇÃO</h2>
+                            <h3>FTL – Full Truckload – DISTRIBUIÇÃO DE CARGAS DE LOTAÇÃO</h3>
+                            <p>
+                                Somos uma empresa especialista em gestão de carga de lotação, com especialização no transporte de cargas lotação para toda região do Brasil.
+                            </p>
+                        </div>
+                        <div class="panel-shadow">
+                            <i class="fa fa-handshake-o fa-4x" aria-hidden="true"></i>
+                            <h2>GERENCIAMENTO DE RISCO/ SEGURADORA </h2>
+                            <p>Principais parceiros de serviços para gerenciamento da sua carga e seguradora:</p>
+                        </div>
                     </div>
                     <div class="col-md-8">
-                        
+                        <p class="tac">Clique no estado da coleta e solicite uma cotação</p>
                         <svg version="1.1" id="svg-map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" viewBox="0 0 450 460" enable-background="new 0 0 450 460" xml:space="preserve">
                             <g>
                                 <a xlink:href="#tocantins" class="estado active" name="Tocantins" code="17">
@@ -98,7 +109,7 @@
                                     C290.983,125.675,290.983,128.044,288.845,127.827z"></path>
                                     <text transform="matrix(1 0 0 1 318.2754 126.7036)" fill="#FFFFFF">MA</text>
                                 </a>
-                                <a xlink:href="#amapa" class="estado" name="Amapá" code="16">
+                                <a xlink:href="javascript:void(0)" class="estado" name="Amapá" code="16">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M225.198,39.089
                                     c3.274,1.165,3.985-1.315,6.572-1.74c3.616-0.603,5.683,2.725,9.037,2.067c4.055-0.78,7.093-8.025,7.314-11.598
                                     c4.492-3.534,5.503-11.258,9.42-14.68c6.055,4.258,6.11,15.788,7.589,22.485c-0.164,0.083,6.57,7.998,7.944,8.682
@@ -106,7 +117,7 @@
                                     C221.814,36.458,223.334,38.417,225.198,39.089z"></path>
                                     <text transform="matrix(1 0 0 1 245.9023 52.6099)" fill="#FFFFFF">AP</text>
                                 </a>
-                                <a xlink:href="#para" class="estado" name="Pará" code="15">
+                                <a xlink:href="javascript:void(0)" class="estado" name="Pará" code="15">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M173.378,50.619
                                     c2.259,2.63,5.629-4.478,7.901-3.82c3.19,0.918,1.478-1.108,5.026-1.752c1.931,0.806,3.096,0.273,3.519-1.631
                                     c0.535-1.26,1.453-1.726,2.725-1.384c1.768-1.684,13.558,3.603,14.68,0.384c0.629-1.821-4.287-5.709-0.302-6.997
@@ -123,7 +134,7 @@
                                     C319.302,76.912,319.74,78.76,319.139,77.664z"></path>
                                     <text transform="matrix(1 0 0 1 232.7725 122.5137)" fill="#FFFFFF">PA</text>
                                 </a>
-                                <a xlink:href="#roraima" class="estado" name="Roraima" code="14">
+                                <a xlink:href="javascript:void(0)" class="estado" name="Roraima" code="14">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M113.18,24.107
                                     c-0.972-2.753-7.861-5.889-6.999-8.984c0.068-0.232,13.229,6.053,12.79,2.808c0.398,1.329,1.219,1.889,2.439,1.685
                                     c1.889-1.301,7.148,4.204,8.216,1.889c0.438-0.959-1.657-3.753,0.74-3.848c1.026,0.438,1.534,0.164,1.52-0.822
@@ -134,7 +145,7 @@
                                     s-12.517-52.736-20.335-54.063C115.261,36.417,111.523,25.682,113.18,24.107z"></path>
                                     <text transform="matrix(1 0 0 1 136.2939 42.3862)" fill="#FFFFFF">RR</text>
                                 </a>
-                                <a xlink:href="#amazonas" class="estado" name="Amazonas" code="13">
+                                <a xlink:href="javascript:void(0)" class="estado" name="Amazonas" code="13">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M10.078,136.412
                                     c1.15-4.972,4.258-10.394,8.215-13.105c4.41-3.027,7.656-5.71,13.105-6.082c2.165-0.149,10.216-5.75,11.983-2.984
                                     c3.711,5.765,4.998-3.739,5.574-7.025c1.726-9.667,3.697-19.322,4.86-29.086c-0.342-1.356-2.013-6.231-2.833-7.163
@@ -154,7 +165,7 @@
                                     c-8.601-4.381-16.61-8.981-26.088-11.05c-10.282-2.259-20.635-4.793-29.878-10.011C4.121,145.766,12.433,144.779,10.078,136.412z"></path>
                                     <text transform="matrix(1 0 0 1 98.1406 119.0591)" fill="#FFFFFF">AM</text>
                                 </a>
-                                <a xlink:href="#acre" class="estado" name="Acre" code="12">
+                                <a xlink:href="javascript:void(0)" class="estado" name="Acre" code="12">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M3.656,148.545
                                     c12.557,7.544,27.524,8.367,41.082,13.2c12.802,8.065,27.278,12.845,40.616,19.872c-2.834,1.205-7.587,4.382-9.983,6.395
                                     c-2.93,2.45-1.3,2.04-4.628,1.957c-2.93-0.069-3.957,4.615-7.203,5.259c-2.999,0.603-7.161-1.958-10.995-1.697
@@ -163,7 +174,7 @@
                                     c6.299-3.41-3.107-11.9-5.216-15.679c-0.52-0.918-3.588-4.655-3.629-5.957C1.642,150.174,6.612,151.968,3.656,148.545z"></path>
                                     <text transform="matrix(1 0 0 1 47.7017 184.9355)" fill="#FFFFFF">AC</text>
                                 </a>
-                                <a xlink:href="#rondonia" class="estado" name="Rondônia" code="11">
+                                <a xlink:href="javascript:void(0)" class="estado" name="Rondônia" code="11">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M83.34,180.232
                                     c0.931-1.574,5.341-4.668,6.312-4.656c1.355-0.067,2.671,0.138,3.958,0.603c3.012,1.44,2.039-1.135,5.341-0.123
                                     c-1.274-2.287,3.793-2.943,2.86-0.315c3.068,0.247,2.725-4.683,6.668-5.12c4.438-0.508,5.054-0.646,7.122-4.534
@@ -175,7 +186,7 @@
                                     c-0.384-6.081-1.028-1.986-3.382-1.903C94.336,180.686,85.957,181.671,83.34,180.232z"></path>
                                     <text transform="matrix(1 0 0 1 118.1299 195.3193)" fill="#FFFFFF">RO</text>
                                 </a>
-                                <a xlink:href="#matogrosso" class="estado" name="Mato Grosso" code="51">
+                                <a xlink:href="javascript:void(0)" class="estado" name="Mato Grosso" code="51">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M142.237,173.962
                                     c4-0.316-1.888-6.452,5-5.738c7.914,0.808,16.295,0.328,24.279,0.218c1.629-0.013,8.902,1.288,7.395-1.833
                                     c-1.192-2.453,1.821-6.425,0.425-9.725c2.027-0.864,1.289-3.807,2.629-5.107c1.151-1.123,4.176,7.244,4.436,7.819
@@ -190,7 +201,7 @@
                                     C143.581,176.618,141.937,174.714,142.237,173.962z"></path>
                                     <text transform="matrix(1 0 0 1 200.0244 218.4175)" fill="#FFFFFF">MT</text>
                                 </a>
-                                <a xlink:href="#mattogrossodosul" class="estado" name="Mato Grosso do Sul" code="50">
+                                <a xlink:href="javascript:void(0)" class="estado" name="Mato Grosso do Sul" code="50">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M183.198,294.536
                                     c2.136-4.464,3.177-9.394,5.312-13.61c1.712-3.344-4.067-7.587-2.423-9.807c0.027-0.026,2.738,3.641,3.917,3.725
                                     c3.204-1.534,4.807-2.272,6.984-5.228c2.615-3.59,10.832-3.014,14.051-0.305c1.259,1.041,3.068,2.107,4.668,2.574
@@ -316,7 +327,7 @@
                         <div class="row">
                             <div class="col-md-4 col-md-offset-4">
                                 <div class="panel-shadow mt-20 mb-20 pa-10">
-                                    <div class="circle atendimento"></div>Estados atendidos
+                                    <div class="circle atendimento"></div><p>Estados atendidos</p>
                                 </div>
                             </div>
                         </div>
@@ -334,8 +345,79 @@
                         <h4 class="modal-title">Solicite uma cotação para o estado de São Paulo</h4>
                     </div>
                     <div class="modal-body">                        
-                        <form id="tab-sp" class="tab-pane active" action="" method="post">
-                             
+                        <form id="contact-form" method="post" action="contact.php" role="form">
+
+                            <div class="messages"></div>
+
+                            <div class="controls">
+                                <div class="dn">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input id="form_estado" type="text" name="estado" class="form-control" value="São Paulo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_name">Nome *</label>
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Preencha o seu nome *" required="required" data-error="Nome é um campo obrigatório.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_email">Email *</label>
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Preencha o seu email *" required="required" data-error="Preencha com um email válido.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="form_veiculo">Tipo do veículo *</label>
+                                            <input id="form_veiculo" type="tel" name="veiculo" class="form-control" placeholder="Preencha o tipo do veículo *" required="required" data-error="Tipo do veículo é um campo obrigatório.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="form_carga">Tipo da carga *</label>
+                                            <input id="form_carga" type="tel" name="carga" class="form-control" placeholder="Preencha o tipo da carga *" required="required" data-error="Tipo de carga é um campo obrigatório.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="form_empresa">Empresa *</label>
+                                            <input id="form_empresa" type="tel" name="empresa" class="form-control" placeholder="Preencha a sua Empresa *" required="required" data-error="Empresa é um campo obrigatório.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_message">Mensagem *</label>
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Escreva sua mensagem *" rows="4" required="required" data-error="Mensagem é um campo obrigatório."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-success btn-send" value="Enviar mensagem">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="text-muted"><strong>*</strong> Campos obrigatórios.</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </form>
                     </div>
                 </div>

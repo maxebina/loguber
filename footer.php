@@ -20,6 +20,8 @@
         <script src="js/ie10-viewport-bug-workaround.js"></script>
         <script src="js/animated-header.js"></script>
         <script src="js/tecnologia.js"></script>
+        <script src="js/validator.js"></script>
+        <script src="js/contact.js"></script>
     </div>
 </body>
 </html>
