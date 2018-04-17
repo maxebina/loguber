@@ -8,22 +8,45 @@
     		<section>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="panel-shadow mb-20">
-                            <i class="fa fa-truck fa-4x" aria-hidden="true"></i>
+                        <div class="panel-shadow tipo-servico">
+                            <i class="fa fa-truck fa-5x" aria-hidden="true"></i>
                             <h2>CARGA LOTAÇÃO</h2>
                             <h3>FTL – Full Truckload – DISTRIBUIÇÃO DE CARGAS DE LOTAÇÃO</h3>
                             <p>
                                 Somos uma empresa especialista em gestão de carga de lotação, com especialização no transporte de cargas lotação para toda região do Brasil.
                             </p>
                         </div>
-                        <div class="panel-shadow">
-                            <i class="fa fa-handshake-o fa-4x" aria-hidden="true"></i>
+                        <div class="panel-shadow tipo-servico">
+                            <i class="fa fa-handshake-o fa-5x" aria-hidden="true"></i>
                             <h2>GERENCIAMENTO DE RISCO/ SEGURADORA </h2>
                             <p>Principais parceiros de serviços para gerenciamento da sua carga e seguradora:</p>
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <div class="thumbnail">
+                                            <img src="img/slide-loguber-loguber.jpg" alt="Slide LOGUBER">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="thumbnail">
+                                            <img src="img/slide-loguber-tecnologia.jpg" alt="Slide Tecnologia">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="thumbnail">
+                                            <img src="img/slide-loguber-franquia.jpg" alt="Slide Franquia">
+                                        </div>
+                                    </div>
+                                </div><!-- End Carousel Inner -->
+                                <div class="carousel-controls">
+                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                                    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <p class="tac">Clique no estado da coleta e solicite uma cotação</p>
+                        <p class="tac mt-20">Clique no estado da coleta e solicite uma cotação</p>
                         <svg version="1.1" id="svg-map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" viewBox="0 0 450 460" enable-background="new 0 0 450 460" xml:space="preserve">
                             <g>
                                 <a xlink:href="#tocantins" class="estado active" name="Tocantins" code="17">
@@ -245,7 +268,7 @@
                                     C276.085,411.866,233.534,382.918,231.029,383.959z"></path>
                                     <text transform="matrix(1 0 0 1 266.9111 387.7646)" fill="#FFFFFF">SC</text>
                                 </a>
-                                <a xlink:href="#riograndedosul" class="estado active" name="Rio Grande do Sul" code="43">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Rio Grande do Sul" code="43" data-toggle="modal" data-target="#modal-estados" id="uf-rs">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M191.236,416.881
                                     c0.52-2.684,7.38-8.409,9.477-10.351c0.37-0.359,8.599-10.08,9.174-8.329c-1.301-3.89,2.781-1.589,3.917-4.819
                                     c0.26-0.521,7.04-4.821,7.109-4.795c1.436-0.191,6.721-3.695,7.421-3.257c1.204-2.028,8.927-1.479,8.653-0.824
@@ -256,7 +279,7 @@
                                     c-2.3-1.999-4.793-5.479-7.737-6.68c-3.478-1.367-5.615,5.145-9.052,0.821C189.168,418.854,190.332,418.032,191.236,416.881z"></path>
                                     <text transform="matrix(1 0 0 1 231.0313 414.4658)" fill="#FFFFFF">RS</text>
                                 </a>
-                                <a xlink:href="#saopaulo" class="estado active" name="São Paulo" code="35" data-toggle="modal" data-target="#modal-sp">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="São Paulo" code="35" data-toggle="modal" data-target="#modal-estados" id="uf-sp">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M239.3,330.554
                                     c3.26-4.356,9.56-5.039,11.531-10.792c1.369-3.942,3.889-8.818,6.135-13.036c1.561-2.957,7.749-7.121,10.517-8.65
                                     c0.383-0.196,32.974-6.138,42.234-1.701c20.265,9.724,26.017,33.879,27.854,33.304c4.408-1.425,5.34,3.778,2.106,4.49
@@ -326,8 +349,9 @@
                         </svg>
                         <div class="row">
                             <div class="col-md-4 col-md-offset-4">
-                                <div class="panel-shadow mt-20 mb-20 pa-10">
-                                    <div class="circle atendimento"></div><p>Estados atendidos</p>
+                                <div class="panel-shadow mt-20 mb-20 pa-10 legenda">
+                                    <div class="circle atendimento"></div>
+                                    <p>Estados atendidos</p>
                                 </div>
                             </div>
                         </div>
@@ -337,12 +361,12 @@
     		</section>
         </div>
 
-        <div id="modal-sp" class="modal fade" role="dialog">
+        <div id="modal-estados" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Solicite uma cotação para o estado de São Paulo</h4>
+                        <h4 class="modal-title">Solicite uma cotação para o estado de <span id="uf">São Paulo</span></h4>
                     </div>
                     <div class="modal-body">                        
                         <form id="contact-form" method="post" action="contact.php" role="form">
@@ -354,7 +378,7 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <input id="form_estado" type="text" name="estado" class="form-control" value="São Paulo">
+                                                <input id="form_estado" type="text" name="estado" class="form-control" value="UF">
                                             </div>
                                         </div>
                                     </div>
@@ -413,7 +437,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p class="text-muted"><strong>*</strong> Campos obrigatórios.</p>
+                                        <p class="mt-20"><strong>*</strong> Campos obrigatórios.</p>
                                     </div>
                                 </div>
                             </div>

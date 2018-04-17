@@ -22,6 +22,7 @@
         <script src="js/tecnologia.js"></script>
         <script src="js/validator.js"></script>
         <script src="js/contact.js"></script>
+        <script src="js/change-value.js"></script>
     </div>
 </body>
 </html>
