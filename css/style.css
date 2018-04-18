@@ -852,6 +852,10 @@ body > .container {
   background-image: url(../img/banner-tecnologia.png);
 }
 
+.page .banner-page.banner-servicos {
+  background-image: url(../img/banner-servicos.png);
+}
+
 .page .banner-page h1 {
   font-family: 'Zilla Slab', serif;
   font-size: 30px;
@@ -989,6 +993,27 @@ body > .container {
   transform: rotate(-90deg);
 }
 
+.panel-shadow {
+  background: #fff;
+  border: 2px solid #242f3f;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 0 3px #000;
+  padding: 40px;
+}
+
+.circle {
+  border-radius: 50%;
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+
+.circle.atendimento {
+  background: #b79256;
+  border: 2px solid #000;
+}
+
 .img-change {
   margin-top: 188px;
 }
@@ -1012,6 +1037,42 @@ header.shrink .secondary-menu ul {
 
 header.shrink .navbar-brand {
   width: 200px;
+}
+
+.tab-content {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  padding: 10px 20px;
+}
+
+#svg-map path {
+  fill: #f0cb91;
+  transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+#svg-map text {
+  fill: #000;
+  font: 12px 'Zilla Slab', serif;
+  cursor: pointer;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+#svg-map a {
+  text-decoration: none;
+}
+
+#svg-map a.active path {
+  fill: #b79256;
+  cursor: pointer;
+}
+
+#svg-map a.active:hover path {
+  fill: #895b13 !important;
 }
 
 /* Sticky footer styles
@@ -1256,4 +1317,16 @@ code {
 
 .tac {
   text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.pa-10 {
+  padding: 10px;
 }
