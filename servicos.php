@@ -49,13 +49,13 @@
                         <p class="tac mt-20">Clique no estado da coleta e solicite uma cotação</p>
                         <svg version="1.1" id="svg-map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" viewBox="0 0 450 460" enable-background="new 0 0 450 460" xml:space="preserve">
                             <g>
-                                <a xlink:href="#tocantins" class="estado active" name="Tocantins" code="17">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Tocantins" code="17" data-toggle="modal" data-target="#modal-estados" id="uf-to">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M289.558,235.641
                                     c16.104,0.575,44.973-31.647,44.835-45.259c-0.136-13.612-17.227-58.446-22.349-66.088c-5.122-7.628-37.905,2.506-37.905,2.506
                                     S234.852,233.695,289.558,235.641z"></path>
                                     <text transform="matrix(1 0 0 1 287.0137 188.3208)" fill="#FFFFFF">TO</text>
                                 </a>
-                                <a xlink:href="#bahia" class="estado active" name="Bahia" code="29">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Bahia" code="29" data-toggle="modal" data-target="#modal-estados" id="uf-ba">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M313.276,197.775
                                     c2.084-2.739,3.506-7.012,6.464-8.764c1.641-0.973,3.232-4.684,4.271-5.163c2.304-1.014,12.161-25.143,20.706-22.513
                                     c1.095,0.342,29.881,3.478,32.153,7.532c2.246-0.506,17.582-8.804,25.829-4.999c9.172,4.246,11.225,20.679,11.2,20.843
@@ -66,14 +66,14 @@
                                     c-0.546-1.725-5.396-6.079-0.026-7.175c-3.175,0.959-1.944-4.027,0.875-3.012C316.726,200.733,314.044,200.527,313.276,197.775z"></path>
                                     <text transform="matrix(1 0 0 1 359.7324 210.1221)" fill="#FFFFFF">BA</text>
                                 </a>
-                                <a xlink:href="#sergipe" class="estado active" name="Sergipe" code="28">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Sergipe" code="28" data-toggle="modal" data-target="#modal-estados" id="uf-se">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M408.561,191.735
                                     c0.521-1.505,2.465-0.725,3.533-0.794c2.273-0.164,0.494-2.738,1.095-3.778c2.026-3.793-2.738-5.999-1.998-10.408
                                     c4.024,1.931,9.448,3.397,12.408,6.89c1.343,1.533,5.504,2.656,5.832,4.847c-6.822,0.384-6.901,8.819-11.942,11.572
                                     C413.545,202.212,407.055,193.721,408.561,191.735z"></path>
                                     <text transform="matrix(1 0 0 1 408.9121 198.6689)" fill="#FFFFFF">SE</text>
-                                </a>
-                                <a xlink:href="#pernambuco" class="estado active" name="Pernambuco" code="26">
+                                </a>                                
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Pernambuco" code="26" data-toggle="modal" data-target="#modal-estados" id="uf-pe">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M373.011,167.238
                                     c2.709-0.795,6.218-14.106,8.325-15.106c4.136-1.986,17.255-1.437,17.8,4.903c-0.437-0.068,8.189-2.273,7.479-1.466
                                     c1.7-0.711,10.518-4.723,12.599-4.82c0.274-0.013,4.603,0.905,3.068,2.315c-0.464,0.439,4.219,3.698,10.789,3.45
@@ -83,21 +83,21 @@
                                     c0.219,0.108-8.244,6.681-7.506,3.314C383.556,170.4,374.241,168.566,373.011,167.238z"></path>
                                     <text transform="matrix(1 0 0 1 401.3984 165.8003)" fill="#FFFFFF">PE</text>
                                 </a>
-                                <a xlink:href="#alagoas" class="estado active" name="Alagoas" code="27">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Alagoas" code="27" data-toggle="modal" data-target="#modal-estados" id="uf-al">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M413.953,169.018
                                     c3.78,3.313,9.424,5.505,12.547,5.491c3.229-0.013,5.009-3.328,7.421-4.794c1.177-0.712,10.297-1.93,9.174,1.042
                                     c-1.807,4.848-7.122,8.585-10.024,12.789c-2.792,2-3.423,7.093-6.354,1.864c-3.259,0.424-3.722-4.424-6.957-4.477
                                     c-3.668-2.261-7.998-3.769-11.201-6.342C410.615,172.646,412.751,171.359,413.953,169.018z"></path>
                                     <text transform="matrix(1 0 0 1 429.7891 183.895)" fill="#FFFFFF">AL</text>
                                 </a>
-                                <a xlink:href="#riograndedonorte" class="estado active" name="Rio Grande do Norte" code="24">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Rio Grande do Norte" code="24" data-toggle="modal" data-target="#modal-estados" id="uf-rn">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M404.698,138.795
                                     c2.383-4.027,6.574-6.123,8.49-11.149c1.973-5.107,3.834-5.818,8.764-4.642c5.041,1.207,9.339,0.837,14.57,1.671
                                     c7.534,1.193,6.848,10.968,9.206,16.516c-1.919,1.096-13.972,0.521-15.064-1.657c-1.041-2.067-2.904,7.107-5.094,7.3
                                     c1.532-5.847-12.654,1.78-5.424-8.683c2.545-3.67-6.302-0.808-6.711,0.725C410.121,144.013,407.217,139.151,404.698,138.795z"></path>
                                     <text transform="matrix(1 0 0 1 422.541 123.9009)" fill="#FFFFFF">RN</text>
                                 </a>
-                                <a xlink:href="#ceara" class="estado active" name="Ceará" code="23">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Ceará" code="23" data-toggle="modal" data-target="#modal-estados" id="uf-ce">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M372.379,104.409
                                     c0.437-1.368,2.961-3.627,1.043-5.025c12.106-1.328,17.581-0.849,27.66,6.723c4.026,3.054,6.822,5.574,10.571,9.147
                                     c1.317,1.273,7.614,4.313,7.914,6.164c-0.054-0.316-5.396,3.696-5.997,5.217c-1.066,2.684-2.659,6.093-4.3,8.298
@@ -107,7 +107,7 @@
                                     C373.035,102.314,374.815,105.971,372.379,104.409z"></path>
                                     <text transform="matrix(1 0 0 1 386.8379 129.0347)" fill="#FFFFFF">CE</text>
                                 </a>
-                                <a xlink:href="#piaui" class="estado active" name="Piauí" code="22">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Piauí" code="22" data-toggle="modal" data-target="#modal-estados" id="uf-pi">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M320.781,185.478
                                     c2.465-5.149-7.505-20.801-7.505-20.801s47.354-65.868,54.285-66.841c0.299-0.042,6.243,1.768,6.463,2.219
                                     c0.438,0.863-0.821,5.244-0.685,6.587c0.275,2.629,2.879,6.587,2.328,8.684c-1.15,4.736-1.863,6.134,1.369,9.901
@@ -117,7 +117,7 @@
                                     C328.176,198.748,327.409,180.727,320.781,185.478z"></path>
                                     <text transform="matrix(1 0 0 1 355.127 158.1045)" fill="#FFFFFF">PI</text>
                                 </a>
-                                <a xlink:href="#maranhao" class="estado active" name="Maranhão" code="21">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Maranhão" code="21" data-toggle="modal" data-target="#modal-estados" id="uf-ma">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M288.845,127.827
                                     c4.108-2.726,31.195-48.985,31.386-50.395c1.235,0.397,6.084,7.435,7.562,5.025c0.493,0.013-0.328,2.15-0.547,2.396
                                     c-0.054-0.135,2.189-2.286,2.52-2.436c0.521-0.233,1.948,1.903,3.451-0.726c5.642,1.575,1.314,14.31,9.121,11.694
@@ -236,7 +236,7 @@
                                     c0.932-2.847,1.411-9.912,0.453-11.856c-0.165-0.331-3.52-7.232-2.547-8.108C186.306,297.688,182.334,299.415,183.198,294.536z"></path>
                                     <text transform="matrix(1 0 0 1 213.2939 306.7236)" fill="#FFFFFF">MS</text>
                                 </a>
-                                <a xlink:href="#goias" class="estado active" name="Goiás" code="52">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Goiás" code="52" data-toggle="modal" data-target="#modal-estados" id="uf-go">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M237.768,270.519
                                     c0.628-2.904,1.835-7.396,4.709-8.766c1.015-1.644,1.754-5.147,2.275-5.586c2.408-2.247,3.889-3.783,6.63-4.656
                                     c3.723-1.205,3.338-5.342,4.846-8.165c1.504-2.845,4.736-1.15,5.942-3.382c1.479-2.834,0.741-6.161,2.189-8.874
@@ -252,7 +252,7 @@
                                     c-3.724-0.604,1.04-3.231,0.22-4.109c-1.89-1.916-4.382,1.756-3.588-3.012C239.602,274.627,237.055,273.038,237.768,270.519z"></path>
                                     <text transform="matrix(1 0 0 1 266.9111 254.2139)" fill="#FFFFFF">GO</text>
                                 </a>
-                                <a xlink:href="#parana" class="estado active" name="Paraná" code="41">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Paraná" code="41" data-toggle="modal" data-target="#modal-estados" id="uf-pr">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M222.225,363.694
                                     c1.807-2.138,1.889-4.881,2.424-7.479c0.301-1.453,0.465-7.86,1.369-8.736c2.3-0.684,2.3-3.315,2.726-5.204
                                     c0.616-2.738,2.821-2.958,3.984-5.616c4.369-9.91,38.947-9.529,46.476-9.227c4.658,0.193,15.775,34.563,17.916,33.794
@@ -260,7 +260,7 @@
                                     c-3.875-1.449-2.698-6.491-6.054-8.216C226.663,364.623,222.498,367.8,222.225,363.694z"></path>
                                     <text transform="matrix(1 0 0 1 248.4453 356.1045)" fill="#FFFFFF">PR</text>
                                 </a>
-                                <a xlink:href="#santacatarina" class="estado active" name="Santa Catarina" code="42">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Santa Catarina" code="42" data-toggle="modal" data-target="#modal-estados" id="uf-sc">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M231.029,383.959
                                     c1.669-3.338-0.284-10.516,4.573-10.569c6.631-0.109,13.639,3.559,20.402,3.888c1.317,0.055,5.231,2.163,4.357-1.15
                                     c-1.095-4.164,3.945-1.863,5.67-3.179c2.274-1.724,8.187-4.106,11.311-1.367c1.423,1.809,20.05-5.395,13.284,3.946
@@ -291,7 +291,7 @@
                                     C247.982,330.386,239.876,331.21,239.3,330.554z"></path>
                                     <text transform="matrix(1 0 0 1 280.6816 327.3193)" fill="#FFFFFF">SP</text>
                                 </a>
-                                <a xlink:href="#minasgerais" class="estado active" name="Minas Gerais" code="31">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Minas Gerais" code="31" data-toggle="modal" data-target="#modal-estados" id="uf-mg">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M262.881,297.305
                                     c-1.696-5.094,15.531-19.882,18.844-13.421c5.531-7.367,15.886,1.588,19.773-3.944c0.988-1.367,3.015-1.453,3.725-2.957
                                     c0.326-0.711-0.493-2.793-0.056-3.888c1.369-3.398-4.873-2.355-0.109-6.603c4.547-4.053-1.917-4.739-1.204-8.186
@@ -310,7 +310,7 @@
                                     c-4.708-0.353-5.53-1.613-9.858,0.631C262.993,300.562,262.336,299.274,262.881,297.305z"></path>
                                     <text transform="matrix(1 0 0 1 328.4063 286.4561)" fill="#FFFFFF">MG</text>
                                 </a>
-                                <a xlink:href="#riodejaneiro" class="estado active" name="Rio de Janeiro" code="33">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Rio de Janeiro" code="33" data-toggle="modal" data-target="#modal-estados" id="uf-rj">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M332.886,337.429
                                     c-1.26-2.768,8.409-4.795,7.89-6.71c-3.177-1.864-4.602,1.148-6.63-2.959c4.274-0.686,9.533-4.49,13.831-3.562
                                     c0.548-0.219,4.902-1.753,4.96,0.167c2.546-1.566,5.479-2.412,8.105-3.837c2.246-1.206,0.932-8.218,3.725-9.643
@@ -321,7 +321,7 @@
                                     C336.717,337.908,333.927,342.41,332.886,337.429z"></path>
                                     <text transform="matrix(1 0 0 1 347.4648 334.6807)" fill="#FFFFFF">RJ</text>
                                 </a>
-                                <a xlink:href="#espiritosanto" class="estado active" name="Espírito Santo" code="32">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Espírito Santo" code="32" data-toggle="modal" data-target="#modal-estados" id="uf-es">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M367.119,308.834
                                     c1.044-1.999-0.298-5.451,1.841-6.326c3.697-1.453,3.858-0.467,5.941-4.49c0.767-1.563,3.999-5.807,2.848-7.835
                                     c-0.439-0.765-3.204-3.613-3.286-4.05c1.04-0.249,2.079-0.219,3.123,0.054c1.366-0.654-6.465-10.519,2.137-8.054
@@ -330,13 +330,13 @@
                                     c-1.64-0.274-3.202-0.768-4.736-1.451C368.819,311.297,369.424,309.055,367.119,308.834z"></path>
                                     <text transform="matrix(1 0 0 1 373.3047 300.4971)" fill="#FFFFFF">ES</text>
                                 </a>
-                                <a xlink:href="#distritofederal" class="estado active" name="Distrito Federal" code="53">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Distrito Federal" code="53" data-toggle="modal" data-target="#modal-estados" id="uf-df">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M292.461,246.197
                                     c0,0,12.929-2.903,14.188,0c1.233,2.903,0.659,10.683-1.424,11.504c-2.08,0.849-14.296-1.806-14.023-3.313
                                     C291.503,252.853,292.461,246.197,292.461,246.197z"></path>
                                     <text transform="matrix(1 0 0 1 292.4141 254.2139)" fill="#FFFFFF">DF</text>
                                 </a>
-                                <a xlink:href="#paraiba" class="estado active" name="Paraíba" code="25">
+                                <a xlink:href="javascript:void(0)" class="estado active" name="Paraíba" code="25" data-toggle="modal" data-target="#modal-estados" id="uf-pb">
                                     <path stroke="#000" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M401.575,141.096
                                     c2.081-3.081,16.791-6.82,19.117-4.616c0,1.918,7.259,1.686,10.133,2.712c-0.492,3.038,12.652,1.533,14.408,2.259
                                     c1.421,0.589,3.833,11.983,1.421,12.202c-0.874-1.124-2.083-1.739-3.586-1.835c-2.957-0.027-2.546,1.863-4.383,3.108
