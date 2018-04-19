@@ -260,6 +260,9 @@ header#nav.navbar-default {
   .img-change #img {
     max-width: 258px;
   }
+  .panel-shadow h2 {
+    font-size: 26px !important;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -466,6 +469,9 @@ header#nav.navbar-default {
   .img-change #img {
     max-width: 100%;
   }
+  .panel-shadow.tipo-servico {
+    padding: 10px 20px 20px 20px !important;
+  }
 }
 
 /* welcome box */
@@ -642,6 +648,15 @@ h2 {
     display: block;
     width: 100%;
     object-fit: cover;
+  }
+  .panel-shadow #myCarousel {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 414px) {
+  text {
+    font-size: 19px !important;
   }
 }
 
@@ -1002,16 +1017,38 @@ body > .container {
   padding: 40px;
 }
 
+.panel-shadow.tipo-servico {
+  margin-top: 40px;
+  padding: 10px 20px 40px 20px;
+}
+
+.panel-shadow.tipo-servico i {
+  border-bottom: 2px solid #242f3f;
+  color: #242f3f;
+  margin-top: -33px;
+  padding-bottom: 20px;
+  position: relative;
+  top: -12px;
+}
+
+.panel-shadow.tipo-servico span {
+  color: #242f3f;
+}
+
 .circle {
   border-radius: 50%;
   float: left;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 
 .circle.atendimento {
   background: #b79256;
   border: 2px solid #000;
+}
+
+.legenda p {
+  margin: 5px 0;
 }
 
 .img-change {
@@ -1329,4 +1366,8 @@ code {
 
 .pa-10 {
   padding: 10px;
+}
+
+.dn {
+  display: none;
 }

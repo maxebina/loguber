@@ -24,17 +24,22 @@
                                 <div class="carousel-inner">
                                     <div class="item active">
                                         <div class="thumbnail">
-                                            <img src="img/slide-loguber-loguber.jpg" alt="Slide LOGUBER">
+                                            <img src="img/logos-parceria-brasil-risk.png" alt="Slide LOGUBER">
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="thumbnail">
-                                            <img src="img/slide-loguber-tecnologia.jpg" alt="Slide Tecnologia">
+                                            <img src="img/logos-parceria-buonny.png" alt="Slide Tecnologia">
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="thumbnail">
-                                            <img src="img/slide-loguber-franquia.jpg" alt="Slide Franquia">
+                                            <img src="img/logos-parceria-liberty.png" alt="Slide Franquia">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="thumbnail">
+                                            <img src="img/logos-parceria-pamcary.png" alt="Slide Franquia">
                                         </div>
                                     </div>
                                 </div><!-- End Carousel Inner -->
@@ -46,7 +51,10 @@
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <p class="tac mt-20">Clique no estado da coleta e solicite uma cotação</p>
+                        <p class="tac mt-20">
+                            <br class="hidden-md">
+                            Clique no estado da coleta e solicite uma cotação
+                        </p>
                         <svg version="1.1" id="svg-map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" viewBox="0 0 450 460" enable-background="new 0 0 450 460" xml:space="preserve">
                             <g>
                                 <a xlink:href="javascript:void(0)" class="estado active" name="Tocantins" code="17" data-toggle="modal" data-target="#modal-estados" id="uf-to">
