@@ -10,11 +10,11 @@ $from = $_POST['email'];
 $sendTo = 'LogUber <max@maxebina.com.br>';
 
 // subject of the email
-$subject = 'Nova mensagem de e-mail';
+$subject = $_POST['estado'];
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('estado' => 'Cotação para o estado de', 'name' => 'Nome', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Messagem', 'veiculo' => 'Veículo', 'carga' => 'Carga', 'empresa' => 'Empresa'); 
+$fields = array('estado' => 'Assunto', 'name' => 'Nome', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Messagem', 'veiculo' => 'Veículo', 'carga' => 'Carga', 'empresa' => 'Empresa'); 
 
 // message that will be displayed when everything is OK :)
 $okMessage = 'Mensagem enviada com sucesso. Obrigado. Entraremos em contato em breve!';

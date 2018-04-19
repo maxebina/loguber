@@ -39,8 +39,8 @@ $('#uf-df').click(function(){
 });
 
 $('#uf-to').click(function(){
-    $('#form_estado').val('Tocantins');
-    $('#uf').text('Tocantins');
+    $('#form_estado').val('Cotação para o estado de Tocantins');
+    $('#uf').text('Cotação para o estado de Tocantins');
 });
 
 $('#uf-se').click(function(){
