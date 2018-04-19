@@ -412,21 +412,21 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="form_veiculo">Tipo do veículo *</label>
-                                            <input id="form_veiculo" type="tel" name="veiculo" class="form-control" placeholder="Preencha o tipo do veículo *" required="required" data-error="Tipo do veículo é um campo obrigatório.">
+                                            <input id="form_veiculo" type="text" name="veiculo" class="form-control" placeholder="Preencha o tipo do veículo *" required="required" data-error="Tipo do veículo é um campo obrigatório.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="form_carga">Tipo da carga *</label>
-                                            <input id="form_carga" type="tel" name="carga" class="form-control" placeholder="Preencha o tipo da carga *" required="required" data-error="Tipo de carga é um campo obrigatório.">
+                                            <input id="form_carga" type="text" name="carga" class="form-control" placeholder="Preencha o tipo da carga *" required="required" data-error="Tipo de carga é um campo obrigatório.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="form_empresa">Empresa *</label>
-                                            <input id="form_empresa" type="tel" name="empresa" class="form-control" placeholder="Preencha a sua Empresa *" required="required" data-error="Empresa é um campo obrigatório.">
+                                            <input id="form_empresa" type="text" name="empresa" class="form-control" placeholder="Preencha a sua Empresa *" required="required" data-error="Empresa é um campo obrigatório.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
