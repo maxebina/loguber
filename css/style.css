@@ -880,6 +880,10 @@ body > .container {
   background-image: url(../img/banner-servicos.png);
 }
 
+.page .banner-page.banner-contato {
+  background-image: url(../img/banner-contato.png);
+}
+
 .page .banner-page h1 {
   font-family: 'Zilla Slab', serif;
   font-size: 30px;
