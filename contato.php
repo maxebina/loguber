@@ -2,7 +2,7 @@
     <?php $your_meta_description="Descrição aqui"; ?>
     <?php include("header.php"); ?>
     <div class="page">
-        <div class="banner-page banner-loguber">
+        <div class="banner-page banner-contato">
             <h1>CONTATO</h1>
         </div>        
         <section>
