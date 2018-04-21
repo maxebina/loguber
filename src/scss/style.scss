@@ -586,6 +586,19 @@ h1 {
   .featurette-heading {
     font-size: 30px;
   }
+  .page {
+    .map-box {
+      iframe {
+        height: 400px;        
+      }
+    }
+    .adress-box {
+      padding: 20px 0 !important;
+      i {
+        font-size: 10em !important;
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -939,6 +952,10 @@ body {
     background: #3a96d3;
     margin: 40px 0;
     text-align: center;
+    &.contato {
+      padding: 10px 0;
+      text-align: left;
+    }
   }
   .white-panel {
     background: #fff;
@@ -986,7 +1003,29 @@ body {
         }
       }
     }
-  }  
+  }
+  .map-box {
+    border: 8px solid #c64034;
+    display: block;
+    width: 100%;
+  }
+  .adress-box {
+    background: #fff;
+    display: block;
+    padding: 40px 0;
+    width: 100%;
+    i {
+      color: #2a3f50;
+      font-size: 16em;
+    }
+    h3 {
+      color: #2a3f50;
+      font-weight: bold;
+      span {
+        color: #5795cf;
+      }
+    }
+  }
 }
 
 .panel-default {
@@ -1169,4 +1208,7 @@ header {
 }
 .dn {
   display: none;
+}
+.fr {
+  float: right;
 }
