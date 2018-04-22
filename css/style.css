@@ -884,6 +884,10 @@ body > .container {
   background-image: url(../img/banner-contato.png);
 }
 
+.page .banner-page.banner-franquia {
+  background-image: url(../img/banner-franquia.png);
+}
+
 .page .banner-page h1 {
   font-family: 'Zilla Slab', serif;
   font-size: 30px;
