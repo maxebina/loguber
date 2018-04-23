@@ -8,41 +8,40 @@
     		<section>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="panel panel-login">
-                            <div class="panel-heading">
-                                <div class="row">
-                                    <div class="col-xs-6">
-                                        <a href="#" class="active" id="login-form-link">
+                        <div class="panel panel-franquia">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="panel-shadow active" id="panel-motorista">
+                                        <a href="#">
+                                            <img src="img/franquia-motorista.png">
                                             <h2>FRANQUIA DO MOTORISTA</h2>
                                             <h3>O QUE É O MODELO DE FRANQUIA PARA OS MOTORISTAS?</h3>
                                         </a>
                                     </div>
-                                    <div class="col-xs-6">
-                                        <a href="#" id="register-form-link">
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="panel-shadow" id="panel-vendedor">
+                                        <a href="#">
+                                            <img src="img/franquia-vendedor.png">
                                             <h2>FRANQUIA DO VENDEDOR</h2>
                                             <h3>O QUE É O MODELO DE FRANQUIA PARA OS VENDEDORES?</h3>
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                            
-                        </div>
-                    </div>
-                </div>                
-    		</section>
-            <section>
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div id="login-form">
-                                Login
-                            </div>
-                            <div id="register-form">
-                                Register
-                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
+    		</section>
+            <div class="red-strip">
+                <section>
+                    <div id="tab-motorista">
+                        MOTORISTA
+                    </div>
+                    <div id="tab-vendedor">
+                        VENDEDOR
+                    </div>
+                </section>
+            </div>
 	    </div>
 	<?php include("footer.php"); ?>
