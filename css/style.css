@@ -472,6 +472,13 @@ header#nav.navbar-default {
   .panel-shadow.tipo-servico {
     padding: 10px 20px 20px 20px !important;
   }
+  .page .panel-franquia .panel-shadow {
+    padding: 20px 30px !important;
+  }
+  .page .red-strip {
+    margin: 0 0 30px 0;
+    padding: 10px 20px;
+  }
 }
 
 /* welcome box */
@@ -663,9 +670,52 @@ h2 {
   }
 }
 
+@media (min-width: 415px) and (max-width: 767px) {
+  .page .panel-franquia .panel-shadow {
+    padding: 20px 30px !important;
+  }
+  .page .panel-franquia a h2 {
+    font-size: 16px !important;
+    margin-top: 20px;
+  }
+  .page .panel-franquia a h3 {
+    font-size: 14px !important;
+    margin-bottom: 0px;
+  }
+  .page .red-strip {
+    margin: 0 0 30px 0 !important;
+    padding: 10px 20px !important;
+  }
+}
+
 @media (max-width: 414px) {
   text {
     font-size: 19px !important;
+  }
+  .page .panel-franquia {
+    margin-bottom: 0px;
+  }
+  .page .panel-franquia .panel-shadow {
+    padding: 10px 10px !important;
+  }
+  .page .panel-franquia .panel-shadow img {
+    width: 70px;
+  }
+  .page .panel-franquia a h2 {
+    font-size: 14px !important;
+    margin-top: 10px;
+  }
+  .page .panel-franquia a h3 {
+    font-size: 13px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .page .red-strip {
+    padding: 5px 5px !important;
+    font-size: 12px;
+  }
+  .page .red-strip p {
+    margin: 0px;
   }
 }
 
@@ -1011,6 +1061,73 @@ body > .container {
 
 .page .adress-box h3 span {
   color: #5795cf;
+}
+
+.page .panel-franquia {
+  background: none !important;
+  box-shadow: none !important;
+  color: #00415d;
+  text-align: center;
+}
+
+.page .panel-franquia a:hover {
+  text-decoration: none;
+}
+
+.page .panel-franquia a:focus {
+  text-decoration: none;
+}
+
+.page .panel-franquia a h2 {
+  text-decoration: none;
+  color: #2a3f50;
+  font-weight: bold;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  font-size: 20px;
+}
+
+.page .panel-franquia a h3 {
+  text-decoration: none;
+  color: #2a3f50;
+  font-weight: bold;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  font-size: 16px;
+}
+
+.page .panel-franquia .panel-shadow.active {
+  background: #9cccfc;
+}
+
+.page .panel-franquia .panel-shadow {
+  cursor: pointer;
+  padding: 20px 100px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.page .red-strip {
+  background: #ea4f3d;
+  color: #fff;
+  margin: 0 0 40px 0;
+  padding: 10px 60px;
+  text-align: left;
+}
+
+.page .red-strip ul {
+  padding-left: 15px;
+}
+
+.page #tab-motorista {
+  display: block;
+}
+
+.page #tab-vendedor {
+  display: none;
 }
 
 .panel-default {

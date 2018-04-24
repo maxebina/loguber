@@ -36,10 +36,38 @@
             <div class="red-strip">
                 <section>
                     <div id="tab-motorista">
-                        MOTORISTA
+                        <p>
+                            Existem diversos tipos de recursos junto ao mesmo para profissionalização em seus atendimentos, mapeando e padronizando o atendimento na região que mora.
+                        </p>
+
+                        <p>
+                            <strong>Confira as vantagens de ser um franqueado:</strong>
+                        </p>
+                        <ul>
+                            <li>
+                                Liberação da ANTT;
+                            </li>
+                            <li>
+                                Certificação de Qualidade (Atendimento para todo tipo de carga / Atendimento específico / Atendimento de um único modelo);
+                            </li>
+                            <li>
+                                Emissão de CTE e Fatura;
+                            </li>
+                            <li>
+                                Cursos para aperfeiçoamento de direção;
+                            </li>
+                            <li>
+                                Padronização do veículo (Adesivo e reforma do baú com nossos parceitos);
+                            </li>
+                            <li>
+                                Aplicativo para acompanhamento de desencolvimento do negócio.
+                            </li>
+                        </ul>
                     </div>
                     <div id="tab-vendedor">
-                        VENDEDOR
+                        <p>
+                            Com a crescente no mercado de venda de serviços e produtos, a <strong>LOGUBER</strong> consegue oferecer desenvolvimento e criação de uma rede, fazendo com que seu vendedor vise o crescimento de sua equipe de vendas.
+                        </p>
                     </div>
                 </section>
             </div>
