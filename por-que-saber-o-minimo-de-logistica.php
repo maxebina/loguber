@@ -12,6 +12,12 @@
                 <div class="data-noticia interno mb-20">
                     <i class="fa fa-calendar"></i> Publicado no dia 01/05/2018
                 </div>
+
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-506da23b78eb0a51"></script>
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox"></div>
+            
                 <img src="img/por-que-saber-o-minimo-de-logistica-01.jpg" class="noticia-interno-img">
                 <p>
                     Essa é uma bela pergunta para qualquer empresário. Você vende seus produtos, cota o frete e despacha para o cliente. E fim, certo? Na verdade, muitas vezes esse final não é tão feliz assim. A culpa, de quem é, não importa. Seu cliente acaba não recebendo a mercadoria, ou recebendo-a com atrasos, e quem paga o pato é você. Talvez se você entendesse um pouquinho mais sobre a logística de seus produtos, problemas desse tipo poderiam ser evitados.
