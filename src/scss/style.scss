@@ -609,6 +609,12 @@ h1 {
         font-size: 10em !important;
       }
     }
+    .banner-page {
+      &.banner-contato {
+        background-image: url(../img/banner-contato.png);
+        background-position: right;
+      }
+    }
   }
 }
 

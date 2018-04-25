@@ -551,6 +551,10 @@ h1 {
   .page .adress-box i {
     font-size: 10em !important;
   }
+  .page .banner-page.banner-contato {
+    background-image: url(../img/banner-contato.png);
+    background-position: right;
+  }
 }
 
 @media (max-width: 768px) {
