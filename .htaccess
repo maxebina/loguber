@@ -13,4 +13,6 @@
   RewriteRule ^contato/?$ loguber/contato.php [NC,L]
   RewriteRule ^responsabilidade-social/?$ loguber/responsabilidade-social.php [NC,L]
   RewriteRule ^trabalhe-conosco/?$ loguber/trabalhe-conosco.php [NC,L]
+  
+  RewriteRule ^por-que-saber-o-minimo-de-logistica/?$ loguber/por-que-saber-o-minimo-de-logistica.php [NC,L]
 </IfModule>
