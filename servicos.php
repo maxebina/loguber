@@ -13,7 +13,7 @@
                             <h2>CARGA LOTAÇÃO</h2>
                             <h3>FTL – Full Truckload – DISTRIBUIÇÃO DE CARGAS DE LOTAÇÃO</h3>
                             <p>
-                                Somos uma empresa especialista em gestão de carga de lotação, com especialização no transporte de cargas lotação para toda região do Brasil.
+                                Somos uma empresa especialista em gestão de carga de lotação, com especialização no transporte de cargas lotação para os estados indicados no mapa ao lado.
                             </p>
                         </div>
                         <div class="panel-shadow tipo-servico">
