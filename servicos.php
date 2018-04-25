@@ -409,24 +409,55 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="form_veiculo">Tipo do veículo *</label>
                                             <input id="form_veiculo" type="text" name="veiculo" class="form-control" placeholder="Preencha o tipo do veículo *" required="required" data-error="Tipo do veículo é um campo obrigatório.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="form_carga">Tipo da carga *</label>
                                             <input id="form_carga" type="text" name="carga" class="form-control" placeholder="Preencha o tipo da carga *" required="required" data-error="Tipo de carga é um campo obrigatório.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="form_empresa">Empresa *</label>
                                             <input id="form_empresa" type="text" name="empresa" class="form-control" placeholder="Preencha a sua Empresa *" required="required" data-error="Empresa é um campo obrigatório.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>                                    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_estado_origem">Estado de Origem *</label>
+                                            <select id="form_estado_origem" type="select" name="estado_origem" class="form-control" required="required" data-error="Estado de Origem é um campo obrigatório.">
+                                                <option disabled="disabled" selected="selected" value="">Selecione o Estado de Origem *</option>
+                                                <option>SP</option>
+                                                <option>AL</option>
+                                                <option>BA</option>
+                                                <option>CE</option>
+                                                <option>DF</option>
+                                                <option>ES</option>
+                                                <option>GO</option>
+                                                <option>MA</option>
+                                                <option>MG</option>
+                                                <option>PB</option>
+                                                <option>PE</option>
+                                                <option>PI</option>
+                                                <option>PR</option>
+                                                <option>RJ</option>
+                                                <option>RN</option>
+                                                <option>RS</option>
+                                                <option>SC</option>
+                                                <option>SE</option>
+                                                <option>TO</option>
+                                            </select>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
