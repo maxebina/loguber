@@ -24,22 +24,22 @@
                                 <div class="carousel-inner">
                                     <div class="item active">
                                         <div class="thumbnail">
-                                            <img src="img/logos-parceria-brasil-risk.png" alt="Slide LOGUBER">
+                                            <img src="img/logos-parceria-brasil-risk.png" alt="Slide Brasil Risk">
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="thumbnail">
-                                            <img src="img/logos-parceria-buonny.png" alt="Slide Tecnologia">
+                                            <img src="img/logos-parceria-buonny.png" alt="Slide Buonny">
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="thumbnail">
-                                            <img src="img/logos-parceria-liberty.png" alt="Slide Franquia">
+                                            <img src="img/logos-parceria-liberty.png" alt="Slide Liberty">
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="thumbnail">
-                                            <img src="img/logos-parceria-pamcary.png" alt="Slide Franquia">
+                                            <img src="img/logos-parceria-pamcary.png" alt="Slide Pamcary">
                                         </div>
                                     </div>
                                 </div><!-- End Carousel Inner -->
