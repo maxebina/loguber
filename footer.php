@@ -18,29 +18,11 @@
         <script src="js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="js/ie10-viewport-bug-workaround.js"></script>
-        <script src="js/animated-header.js"></script>
-        <script src="js/tecnologia.js"></script>
+        <!-- Contact scripts -->
         <script src="js/validator.js"></script>
         <script src="js/contact.js"></script>
-        <script src="js/change-value.js"></script>
-        <script type="text/javascript">
-            $(function() {
-                $('#panel-motorista').click(function(e) {
-                    $("#tab-motorista").delay(100).fadeIn(100);
-                    $("#tab-vendedor").fadeOut(100);
-                    $('.panel-shadow').removeClass('active');
-                    $(this).addClass('active');
-                    e.preventDefault();
-                });
-                $('#panel-vendedor').click(function(e) {
-                    $("#tab-vendedor").delay(100).fadeIn(100);
-                    $("#tab-motorista").fadeOut(100);
-                    $('.panel-shadow').removeClass('active');
-                    $(this).addClass('active');
-                    e.preventDefault();
-                });
-            });
-        </script>
+        <!-- Scripts -->
+        <script src="js/scripts.js"></script>
     </div>
 </body>
 </html>

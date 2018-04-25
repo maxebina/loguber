@@ -1,3 +1,23 @@
+// Tecnologia
+$(document).ready(function () {
+    $( "#btn1" ).click(function() {
+        $("#img").attr("src", "img/tec-comprovantes.png");
+   });
+   $( "#btn2" ).click(function() {
+        $("#img").attr("src", "img/tec-tec-da-inf.png");
+   });
+   $( "#btn3" ).click(function() {
+        $("#img").attr("src", "img/tec-interacao.png");
+   });
+   $( "#btn4" ).click(function() {
+        $("#img").attr("src", "img/tec-emissao-cte.png");
+   });
+   $( "#btn5" ).click(function() {
+        $("#img").attr("src", "img/tec-satelite-caminhao.png");
+   });
+});
+
+// Change Value
 $('#uf-rn').click(function(){
     $('#form_estado').val('Rio Grande do Norte');
     $('#uf').text('Rio Grande do Norte');
@@ -94,5 +114,40 @@ $('#uf-rs').click(function(){
 });
 
 $('#modal-estados').on('hidden.bs.modal', function() {
-	$(this).find('form')[0].reset();
+  $(this).find('form')[0].reset();
+});
+
+// Animated Header
+$(function(){
+  var shrinkHeader = 75;
+  $(window).scroll(function() {
+    var scroll = getCurrentScroll();
+    if ( scroll >= shrinkHeader ) {
+      $('header').addClass('shrink');
+    }
+    else {
+      $('header').removeClass('shrink');
+    }
+  });
+  function getCurrentScroll() {
+    return window.pageYOffset;
+  }
+});
+
+// Franquia
+$(function() {
+    $('#panel-motorista').click(function(e) {
+        $("#tab-motorista").delay(100).fadeIn(100);
+        $("#tab-vendedor").fadeOut(100);
+        $('.panel-shadow').removeClass('active');
+        $(this).addClass('active');
+        e.preventDefault();
+    });
+    $('#panel-vendedor').click(function(e) {
+        $("#tab-vendedor").delay(100).fadeIn(100);
+        $("#tab-motorista").fadeOut(100);
+        $('.panel-shadow').removeClass('active');
+        $(this).addClass('active');
+        e.preventDefault();
+    });
 });
