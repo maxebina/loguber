@@ -804,6 +804,29 @@ h2 {
   }
 }
 
+@media (min-width: 348px) and (max-width: 991px) {
+  .page {
+    &.noticias {
+      h2 {
+        margin-top: 20px !important;
+      }
+      img {
+        &.noticia-interno-img {
+          float: none;
+          margin-bottom: 20px;
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+
+.page.noticias img.noticia-interno-img {
+  float: none;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
 .btn {
   background: #2a3f50;
   border: none;
@@ -997,6 +1020,9 @@ body {
     &.banner-franquia {
       background-image: url(../img/banner-franquia.png);
     }
+    &.banner-noticias {
+      background-image: url(../img/banner-noticias.png);
+    }
     h1 {
       font-family: 'Zilla Slab', serif;
       font-size: 30px;
@@ -1163,6 +1189,35 @@ body {
   }
   #tab-vendedor {
     display: none;
+  }
+
+  &.noticias {
+    img {
+      &.noticia-img {
+        background-size: cover;
+        display: block;
+        width: 100%;
+      }
+      &.noticia-interno-img {
+        float: left;
+        margin-right: 20px;
+        width: 420px;
+      }
+    }
+    h2 {
+      margin-top: 0px;
+    }
+    .data-noticia {
+      clear: both;
+      display: block;
+      padding-top: 12px;
+      text-align: right;
+    }
+    .data-noticia {
+      &.interno {
+        text-align: left !important;
+      }
+    }
   }
 }
 
