@@ -616,6 +616,11 @@ h1 {
       }
     }
   }
+  .panel-shadow {
+    &.tc-panel {
+      margin-top: 20px !important;
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -1023,6 +1028,9 @@ body {
     &.banner-noticias {
       background-image: url(../img/banner-noticias.png);
     }
+    &.banner-trabalhe {
+      background-image: url(../img/banner-trabalhe.png);
+    }
     h1 {
       font-family: 'Zilla Slab', serif;
       font-size: 30px;
@@ -1060,6 +1068,20 @@ body {
     &.contato {
       padding: 10px 0;
       text-align: left;
+    }
+  }
+  .dark-blue-strip {
+    background: #2a3f50;    
+    margin: 40px 0;
+    padding: 20px 0;
+    text-align: center;
+    h2, h3, i {
+      color: #fff;
+    }
+    i {
+      font-size: 4em;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 10px;
     }
   }
   .white-panel {
@@ -1281,6 +1303,23 @@ body {
     }
     span {
       color: #242f3f;
+    }
+  }
+  &.tc-panel {
+    margin-top: 110px;
+    h5 {
+      font: 22px 'Zilla Slab', serif;
+      margin-bottom: 50px;
+    }
+    i {
+      transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      &:hover {
+        color: #3a96d3;
+      }
     }
   }
 }

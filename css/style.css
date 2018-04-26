@@ -555,6 +555,9 @@ h1 {
     background-image: url(../img/banner-contato.png);
     background-position: right;
   }
+  .panel-shadow.tc-panel {
+    margin-top: 20px !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -963,6 +966,10 @@ body > .container {
   background-image: url(../img/banner-noticias.png);
 }
 
+.page .banner-page.banner-trabalhe {
+  background-image: url(../img/banner-trabalhe.png);
+}
+
 .page .banner-page h1 {
   font-family: 'Zilla Slab', serif;
   font-size: 30px;
@@ -1008,6 +1015,23 @@ body > .container {
 .page .blue-strip.contato {
   padding: 10px 0;
   text-align: left;
+}
+
+.page .dark-blue-strip {
+  background: #2a3f50;
+  margin: 40px 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.page .dark-blue-strip h2, .page .dark-blue-strip h3, .page .dark-blue-strip i {
+  color: #fff;
+}
+
+.page .dark-blue-strip i {
+  font-size: 4em;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
 }
 
 .page .white-panel {
@@ -1251,6 +1275,27 @@ body > .container {
 
 .panel-shadow.tipo-servico span {
   color: #242f3f;
+}
+
+.panel-shadow.tc-panel {
+  margin-top: 110px;
+}
+
+.panel-shadow.tc-panel h5 {
+  font: 22px 'Zilla Slab', serif;
+  margin-bottom: 50px;
+}
+
+.panel-shadow.tc-panel i {
+  transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+.panel-shadow.tc-panel i:hover {
+  color: #3a96d3;
 }
 
 .circle {
