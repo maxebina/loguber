@@ -15,7 +15,7 @@
                 <div class="thumbnail">                        
                     <div class="carousel-caption">
                         <h2>LOGUBER</h2>                            
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                        <p>Uma empresa constituída para atender uma nova forma de gestão em transportes de cargas no mercado.</p>
                         <a href="loguber" class="btn btn-primary float-right" role="button">Saiba mais <i class="fa fa-arrow-right"></i></a>
                     </div>
                     <img src="img/slide-loguber-loguber.jpg" alt="Slide LOGUBER">
@@ -26,7 +26,7 @@
                     <div class="carousel-caption">
                         <div class="poly">
                             <h2>Tecnologia</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                            <p>As soluções tecnológicas, que a Loguber gestão em transportes disponibiliza aos seus clientes, garantem integração com todo o processo.</p>
                             <a href="tecnologia" class="btn btn-primary float-right" role="button">Saiba mais <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                     <div class="carousel-caption">
                         <div class="poly">
                             <h2>Franquia</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                            <p>Entenda o modelo de franquia para motoristas e vendedores.</p>
                             <a href="franquia" class="btn btn-primary float-right" role="button">Saiba mais <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
