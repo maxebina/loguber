@@ -37,7 +37,7 @@
                             <div class="white-panel">
                                 <h4>Missão</h4>
                                 <p>
-                                    Prestar serviços de gestão em logística, agregando valor aos nossos clientes, franqueados e colaboradores, buscando a inovação dos nossos processos com responsabilida de sócio-ambiental.
+                                    Oferecer alto nível de qualidade de serviços logísticos, propondo soluções inovadoras, gestão inteligente e personalizada, otimização de custos e tempo de entrega, tendo como principal objetivo a integridade do produto em todo processo e foco no prazo de entrega.
                                 </p>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
                             <div class="white-panel">
                                 <h4>Visão</h4>
                                 <p>
-                                    Visão visão visão visão visão visão visão visão visão visão visão visão visão visão visão visão visão visão visão.
+                                    Ser uma empresa referência na prestação de serviços de transporte de carga, agregando valor aos clientes, franqueados e colaboradores.
                                 </p>
                             </div>
                         </div>
@@ -53,8 +53,22 @@
                             <div class="white-panel">
                                 <h4>Valores</h4>
                                 <p>
-                                    Valorizamos o fornecimento de um serviço objetivo, moderno e direto em ciclos de logística e transporte.
-                                    Nosso ideial é cruzar os caminhos dos envolvidos em uma gestão inteligente, transportando para todos.
+                                    - Ética e seriedade;
+                                </p>
+                                <p>
+                                    - Inovação em processos;
+                                </p>
+                                <p>
+                                    - Responsabilidade social;
+                                </p>
+                                <p>
+                                    - Foco em resultados;
+                                </p>
+                                <p>
+                                    - Comprometimento com prazos;
+                                </p>
+                                <p>
+                                    - Integridade e respeito com clientes, franqueados e colaboradores.
                                 </p>
                             </div>
                         </div>
