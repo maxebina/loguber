@@ -5,7 +5,7 @@
     		<div class="banner-page banner-noticias">
     			<h1>NOTÍCIAS</h1>
     		</div>
-    		<section>
+    		<section class="responsabilidade">
                 <div class="row">
                     <div class="col-md-7">
                         <a href="por-que-saber-o-minimo-de-logistica">

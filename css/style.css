@@ -970,6 +970,10 @@ body > .container {
   background-image: url(../img/banner-trabalhe.png);
 }
 
+.page .banner-page.banner-responsabilidade-social {
+  background-image: url(../img/banner-responsabilidade-social.png);
+}
+
 .page .banner-page h1 {
   font-family: 'Zilla Slab', serif;
   font-size: 30px;
@@ -1204,6 +1208,14 @@ body > .container {
 
 .page.noticias .data-noticia.interno {
   text-align: left !important;
+}
+
+.page.responsabilidade .panel-shadow {
+  padding: 5px;
+}
+
+.page.responsabilidade .panel-shadow img {
+  width: 100%;
 }
 
 .panel-default {
