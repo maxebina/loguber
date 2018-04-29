@@ -1034,6 +1034,9 @@ body {
     &.banner-responsabilidade-social {
       background-image: url(../img/banner-responsabilidade-social.png);
     }
+    &.banner-motoristas {
+      background-image: url(../img/banner-motoristas.png);
+    }
     h1 {
       font-family: 'Zilla Slab', serif;
       font-size: 30px;
@@ -1097,16 +1100,28 @@ body {
     }
   }
   .baseboard {
+    &.loguber-motoristas {
+      min-height: 210px;
+    }
     &.loguber {
       min-height: 360px;
       &.image {
         background-image: url(../img/featured-loguber.png);
-          background-position: bottom;
-          background-repeat: no-repeat;
-          background-size: contain;
-          display: block;
-          min-height: 390px;
-          padding-top: 22px;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: block;
+        min-height: 390px;
+        padding-top: 22px;
+      }
+      &.image-motoristas {
+        background-image: url(../img/featured-page-motoristas.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: block;
+        min-height: 240px;
+        padding-top: 22px;
       }
     }
     .item {
