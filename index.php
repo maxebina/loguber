@@ -57,7 +57,8 @@
         <p>
             Receba nossas novidades por e-mail
         </p>
-        <div class="row">
+        <iframe width="800" height="100" src="http://www.loguber.com.br/newsletter/newsletter-site/" frameborder="0" scrolling="no"></iframe>
+        <!--<div class="row">
             <form action="">
                 <div class="col-md-3 col-md-offset-4">
                     <div class="form-group">
@@ -68,7 +69,7 @@
                     <a href="#" class="btn btn-primary" role="button">Assinar <i class="fa fa-arrow-right"></i></a>
                 </div>
             </form>
-        </div>
+        </div>-->
     </div>
 
     <div class="acompanhe-carga-section">
