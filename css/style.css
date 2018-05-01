@@ -1340,7 +1340,7 @@ body > .container {
 }
 
 .circle.atendimento {
-  background: #b79256;
+  background: #cbec6b;
   border: 2px solid #000;
 }
 
@@ -1381,7 +1381,7 @@ header.shrink .navbar-brand {
 }
 
 #svg-map path {
-  fill: #f0cb91;
+  fill: #d8deb1;
   transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
@@ -1401,12 +1401,12 @@ header.shrink .navbar-brand {
 }
 
 #svg-map a.active path {
-  fill: #b79256;
+  fill: #cbec6b;
   cursor: pointer;
 }
 
 #svg-map a.active:hover path {
-  fill: #895b13 !important;
+  fill: #afcb5c !important;
 }
 
 /* Sticky footer styles
