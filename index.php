@@ -77,7 +77,7 @@
         <p>
             Localize sua carga em tempo real
         </p>
-        <a href="rastreamento" class="btn btn-primary" role="button">Rastrear <i class="fa fa-arrow-right"></i></a>
+        <a href="rastreamento" class="btn btn-primary" role="button">Rastrear</a>
     </div>
 
     <div class="featured-section">
