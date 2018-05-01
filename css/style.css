@@ -8,6 +8,10 @@ body {
   }
 }
 
+iframe {
+  width: 100%;
+}
+
 header .main-menu {
   background: #fff;
   border-radius: 4px;
