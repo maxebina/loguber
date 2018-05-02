@@ -7,12 +7,12 @@
     		</div>
     		<section>
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-8">
                         <div class="baseboard loguber text">
                             <h2>TRANSPORTANDO PARA TODOS</h2>
                             <h3>Uma empresa constituída para atender uma nova forma de gestão em transportes de cargas no mercado.</h3>
                             <p>
-                                A LOGUBER é uma empresa que foi constituída por profissionais com mais de 30 anos no setor logístico para atender uma nova Gestão em Transportes de Cargas no mercado.Com expertise na área de Transportes de Cargas, notou-se algumas lacunas de serviços no mercado: Um acompanhamento de carga ineficiente, atendimento ao cliente falho, falta de comprometimento com prazos e motoristas sem treinamento para o serviço. Por este motivo, a LOGUBER foi criada para preencher estes quesitos extremamente importantes para gerar resultados eficazes e satisfatórios aos clientes.A empresa tem o objetivo de transportar para todos à partir de uma nova referência e desenvolvimento com parceiros, como indústrias,transportadoras e pessoas físicas, não se limitando apenas à ser uma plataforma de contratação de frete.A LOGUBER entende que a tecnologia agiliza a chegada de informação, mas tem a sensibilidade de saber a importância do relacionamento com o cliente, aumentando assim, a qualificação dos serviços e, consequentemente, deixando-o mais ágil e eficaz.
+                                A <strong>LOGUBER</strong> é uma empresa que foi constituída por profissionais com mais de 30 anos no setor logístico para atender uma nova Gestão em Transportes de Cargas no mercado.Com expertise na área de Transportes de Cargas, notou-se algumas lacunas de serviços no mercado: Um acompanhamento de carga ineficiente, atendimento ao cliente falho, falta de comprometimento com prazos e motoristas sem treinamento para o serviço. Por este motivo, a <strong>LOGUBER</strong> foi criada para preencher estes quesitos extremamente importantes para gerar resultados eficazes e satisfatórios aos clientes.A empresa tem o objetivo de transportar para todos à partir de uma nova referência e desenvolvimento com parceiros, como indústrias,transportadoras e pessoas físicas, não se limitando apenas à ser uma plataforma de contratação de frete. A <strong>LOGUBER</strong> entende que a tecnologia agiliza a chegada de informação, mas tem a sensibilidade de saber a importância do relacionamento com o cliente, aumentando assim, a qualificação dos serviços e, consequentemente, deixando-o mais ágil e eficaz.
                             </p>
                             <div class="item">
                                 <span class="left-t hidden-sm hidden-md hidden-lg"></span>
@@ -20,7 +20,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <div class="baseboard loguber image">
                             <div class="item">
                                 <span class="left-t hidden-sm hidden-md hidden-lg"></span>

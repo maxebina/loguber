@@ -8,6 +8,10 @@ body {
   }
 }
 
+iframe {
+  width: 100%;
+}
+
 header .main-menu {
   background: #fff;
   border-radius: 4px;
@@ -1058,7 +1062,7 @@ body > .container {
 }
 
 .page .baseboard.loguber {
-  min-height: 360px;
+  min-height: 420px;
 }
 
 .page .baseboard.loguber.image {
@@ -1067,7 +1071,7 @@ body > .container {
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
-  min-height: 390px;
+  min-height: 450px;
   padding-top: 22px;
 }
 
@@ -1336,7 +1340,7 @@ body > .container {
 }
 
 .circle.atendimento {
-  background: #b79256;
+  background: #cbec6b;
   border: 2px solid #000;
 }
 
@@ -1377,7 +1381,7 @@ header.shrink .navbar-brand {
 }
 
 #svg-map path {
-  fill: #f0cb91;
+  fill: #d8deb1;
   transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
@@ -1397,12 +1401,12 @@ header.shrink .navbar-brand {
 }
 
 #svg-map a.active path {
-  fill: #b79256;
+  fill: #cbec6b;
   cursor: pointer;
 }
 
 #svg-map a.active:hover path {
-  fill: #895b13 !important;
+  fill: #afcb5c !important;
 }
 
 /* Sticky footer styles
