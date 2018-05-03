@@ -1,7 +1,7 @@
 
         <footer class="footer">
             <p class="text-muted"><i class="fa fa-copyright" aria-hidden="true"></i> <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> - LOGUBER | Transportando para todos - Todos os direitos reservados.</p>
-            <p><span class="fa fa-whatsapp"></span> 11 99013-3541 - 11 99013-4336 | operacional@loguber.com.br</p>
+            <p><span class="fa fa-whatsapp"></span> 11 99013-3541 - 11 99013-4336 - 11 3090-6599 | operacional@loguber.com.br</p>
 
             <ul class="social-menu">
                 <li><a href=""><span class="fa fa-facebook-square fa-3x"></span></a></li>
