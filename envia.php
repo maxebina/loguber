@@ -1,20 +1,12 @@
 <?php
-/**
- * @Author: Ngo Quang Cuong
- * @Date:   2017-06-27 09:58:40
- * @Last Modified by:   nquangcuong
- * @Last Modified time: 2017-06-27 11:24:27
- * @website: http://giaphugroup.com
- */
+
 if (isset($_POST['firstname'])) {
     $firstname = $_POST['firstname'];
     $email = $_POST['email'];
-    $country = $_POST['country'];
     $content = $_POST['subject'];
-    $body = 'Firstname: '.$firstname.PHP_EOL;
+    $body = 'Nome: '.$firstname.PHP_EOL;
     $body .= 'Email: '.$email.PHP_EOL;
-    $body .= 'Country: '.$country.PHP_EOL;
-    $body .= 'Content: '.$content.PHP_EOL;
+    $body .= 'Mensagem: '.$content.PHP_EOL;
     $image_name = $_FILES["ypicture"]["name"];
     $image = $_FILES["ypicture"]["tmp_name"];
     $content = file_get_contents($image);
@@ -24,7 +16,7 @@ if (isset($_POST['firstname'])) {
     $replyto = $from_mail = ['email'];
     // header
     $header = "From: ".$firstname." <".$email.">\r\n";
-    $header .= "Reply-To: ".$replyto."\r\n";
+    $header .= "Reply-To: <".$email.">\r\n";
     $header .= "Content-Type: multipart/mixed; boundary=\"".$uid."\"\r\n\r\n";
     // message & attachment
     $nmessage = "--".$uid."\r\n";
@@ -38,18 +30,18 @@ if (isset($_POST['firstname'])) {
     $nmessage .= $content."\r\n\r\n";
     $nmessage .= "--".$uid."--";
     try {
-        $subject = 'The email was sent from contact form.';
+        $subject = 'Tenho interesse em fazer parte da LOGUBER';
         mail("maxebina@gmail.com", $subject, $nmessage, $header);
         echo json_encode(
             [
-                'massage' => 'Thank for your contacts',
+                'massage' => 'Obrigado por entrar em contato',
                 'flag' => '1'
             ]
         );
     } catch (Exception $e) {
         echo json_encode(
             [
-                'massage' => 'There is a error while sending your contacts: '.$e->getMessage().'\nPlease try to submit again.',
+                'massage' => 'Ocorreu um erro ao enviar sua mensagem '.$e->getMessage().'\nTente outra vez.',
                 'flag' => '0'
             ]
         );
