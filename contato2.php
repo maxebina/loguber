@@ -194,16 +194,6 @@
             textarea {
                 height:200px;
             }
-            .submit {
-                margin-top: 10px;
-            }
-            .container {
-                border-radius: 5px;
-                background-color: #f2f2f2;
-                padding: 20px;
-                width: 1170px;
-                margin: 0 auto;
-            }
             .required-label {
                 font-size: 13px;
                 color: red;
@@ -215,19 +205,5 @@
             }
             .message .error {
                 color: red;
-            }
-            .loading {
-                width: 16px;
-                padding-left: 15px;
-                display: none;
-            }
-            #contact-form .disabled {
-                color: white;
-                background: gray;
-            }
-            @media(max-width: 1169px) {
-                .container {
-                    width: 80%;
-                }
             }
         </style>
