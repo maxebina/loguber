@@ -22,29 +22,53 @@
                         </h4>
 
                         <form method="POST" id="contact-form" enctype="multipart/form-data" onsubmit="return submitContactContent();">
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name.." class="field-required">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <label for="fname">Nome *</label>
+                                    <input type="text" id="fname" name="firstname" placeholder="Preencha o seu nome *" class="field-required">
+                                </div>
+                            </div>
 
-                            <label for="email">E-mail</label>
-                            <input type="text" id="email" name="email" placeholder="Your last name.." class="field-required">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    
+                                </div>
+                            </div>
 
-                            <label for="country">Country</label>
-                            <select id="country" name="country" class="field-required">
-                                <option value="">---</option>
-                                <option value="australia">Australia</option>
-                                <option value="canada">Canada</option>
-                                <option value="usa">USA</option>
-                                <option value="vn">Vietnam</option>
-                            </select>
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <label for="email">E-mail *</label>
+                                    <input type="text" id="email" name="email" placeholder="Preencha o seu email *" class="field-required">
+                                </div>
+                            </div>
 
-                            <label for="ypicture">Your picture</label>
-                            <input type="file" id="ypicture" name="ypicture" placeholder="Your picture.." class="field-required image-file-validation">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <label for="tel">Telefone *</label>
+                                    <input type="text" id="tel" name="tel" placeholder="Preencha o seu telefone *" class="field-required">
+                                </div>
+                            </div>
 
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Write something.." class="field-required"></textarea>
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <label for="ypicture">Currículo *</label>
+                                    <input type="file" id="ypicture" name="ypicture" placeholder="Anexe o seu currículo *" class="field-required image-file-validation">
+                                </div>
+                            </div>
 
-                            <input type="submit" value="Submit" name="submit" class="submit" id="submit">
-                            <img src="/images/loading.gif" class="loading" />
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <label for="subject">Assunto *</label>
+                                    <textarea id="subject" name="subject" placeholder="Escreva uma mensagem *" class="field-required"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <input type="submit" value="Enviar mensagem" name="submit" class="btn btn-primary btn-send fr" id="submit">
+                                </div>
+                            </div>
+
                             <div class="message"></div>
                         </form>
 
@@ -69,11 +93,11 @@
         function validateForm(formId) {
             //Messages
             var warnings = {
-                text: 'This text field is required',
-                textarea: 'This textarea is required',
+                text: 'Esse campo é obrigatório',
+                textarea: 'Esse campo é obrigatório',
                 select: 'Select an option',
-                file: 'Select a file',
-                image: 'Image invalid (Accepting format .gif .png .jpg .jpeg)'
+                file: 'Esse campo é obrigatório',
+                image: 'Arquivo inválido (formatos aceitos: .doc .pdf)'
             };
             //Init
             var validate = true;
@@ -102,7 +126,7 @@
                 var myself = $(this);
                 if (myself.val() != '') {
                     var ext = myself.val().split('.').pop().toLowerCase();
-                    if ($.inArray(ext, ['gif', 'png', 'jpg', 'jpeg']) == -1) {
+                    if ($.inArray(ext, ['doc', 'pdf']) == -1) {
                         myself.after('<div class="required-label">' + warnings.image + '</div>');
                         validate = false;
                     }
@@ -145,7 +169,7 @@
     <style>
             input[type=text], select, textarea {
                 width: 100%;
-                padding: 12px;
+                padding: 7px;
                 border: 1px solid #ccc;
                 border-radius: 4px;
                 box-sizing: border-box;
