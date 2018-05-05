@@ -46,7 +46,7 @@
             <div class="main-menu">
                 <!-- Navbar Header Starts -->
                 <ul class="social-menu">
-                    <li><a href="fb.me/loguber" target="_blank"><span class="fa fa-facebook-square fa-lg"></span></a></li>
+                    <li><a href="https://fb.me/loguber" target="_blank"><span class="fa fa-facebook-square fa-lg"></span></a></li>
                     <li><a href="https://www.linkedin.com/company/loguber/" target="_blank"><span class="fa fa-linkedin-square fa-lg"></span></a></li>
                 </ul>
                 <div class="navbar-header">
