@@ -78,7 +78,7 @@
                             <h5>
                                 Fique por dentro de todas as oportunidades e dicas profissionais da LOGUBER. 
                             </h5>
-                            <a href="javascript:void(0)">
+                            <a href="https://www.linkedin.com/company/loguber/" target="_blank">
                                 <i class="fa fa-linkedin-square fa-5x"></i>
                             </a>
                         </div>                        

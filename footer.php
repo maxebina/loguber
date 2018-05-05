@@ -5,7 +5,7 @@
 
             <ul class="social-menu">
                 <li><a href=""><span class="fa fa-facebook-square fa-3x"></span></a></li>
-                <li><a href=""><span class="fa fa-linkedin-square fa-3x"></span></a></li>
+                <li><a href="https://www.linkedin.com/company/loguber/" target="_blank"><span class="fa fa-linkedin-square fa-3x"></span></a></li>
             </ul>        
 
             <p class="text-muted">Designed by <a href="http://www.maxebina.com.br" target="blank">Max Ebina</a></p>
