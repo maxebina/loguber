@@ -1409,6 +1409,35 @@ header.shrink .navbar-brand {
   fill: #9c463d !important;
 }
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  resize: vertical;
+}
+
+textarea {
+  height: 200px;
+}
+
+.required-label {
+  font-size: 13px;
+  color: red;
+  margin-top: 5px;
+}
+
+.message {
+  color: green;
+  margin-top: 15px;
+}
+
+.message .error {
+  color: red;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 .footer {

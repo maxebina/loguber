@@ -4,8 +4,8 @@
             <p><span class="fa fa-whatsapp"></span> 11 99013-3541 - 11 99013-4336 - 11 3090-6599 | operacional@loguber.com.br</p>
 
             <ul class="social-menu">
-                <li><a href=""><span class="fa fa-facebook-square fa-3x"></span></a></li>
-                <li><a href=""><span class="fa fa-linkedin-square fa-3x"></span></a></li>
+                <li><a href="https://fb.me/loguber" target="_blank"><span class="fa fa-facebook-square fa-3x"></span></a></li>
+                <li><a href="https://www.linkedin.com/company/loguber/" target="_blank"><span class="fa fa-linkedin-square fa-3x"></span></a></li>
             </ul>        
 
             <p class="text-muted">Designed by <a href="http://www.maxebina.com.br" target="blank">Max Ebina</a></p>

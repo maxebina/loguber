@@ -151,3 +151,80 @@ $(function() {
         e.preventDefault();
     });
 });
+
+// Trabalhe conosco
+function validateForm(formId) {
+    //Messages
+    var warnings = {
+        text: 'Esse campo é obrigatório',
+        textarea: 'Esse campo é obrigatório',
+        select: 'Select an option',
+        file: 'Esse campo é obrigatório',
+        image: 'Arquivo inválido (formatos aceitos: .doc .docx .pdf)'
+    };
+    //Init
+    var validate = true;
+    //Remove old warnings
+    $("#" + formId + " .required-label").remove();
+    $("#" + formId + " .field-required").each(function () {
+        var myself = $(this);
+        if (myself.prop("type").toLowerCase() === 'file' && myself.val() === '') {
+            myself.after('<div class="required-label">' + warnings.file + '</div>');
+            validate = false;
+        }
+        if (myself.prop("type").toLowerCase() === 'text' && myself.val() === '') {
+            myself.after('<div class="required-label">' + warnings.text + '</div>');
+            validate = false;
+        }
+        if (myself.prop("type").toLowerCase() === 'textarea' && myself.val() === '') {
+            myself.after('<div class="required-label">' + warnings.textarea + '</div>');
+            validate = false;
+        }
+        if (myself.prop("type").toLowerCase() === 'select-one' && myself.val() === '') {
+            myself.after('<div class="required-label">' + warnings.select + '</div>');
+            validate = false;
+        }
+    });
+    $("#" + formId + " .image-file-validation").each(function () {
+        var myself = $(this);
+        if (myself.val() != '') {
+            var ext = myself.val().split('.').pop().toLowerCase();
+            if ($.inArray(ext, ['doc', 'docx', 'pdf']) == -1) {
+                myself.after('<div class="required-label">' + warnings.image + '</div>');
+                validate = false;
+            }
+        }
+    });
+    return validate;
+}
+function submitContactContent() {
+    $('#submit').addClass('disabled');
+    $('.message').hide();
+    $('#submit').attr('disabled', 'disabled');
+    if (validateForm('contact-form')) {
+        $('.loading').show();
+        var formData = new FormData($('#contact-form')[0]);
+        $.ajax({
+            url: 'envia.php',
+            data: formData,
+            processData: false,
+            contentType: false,
+            type: 'POST',
+            dataType: 'json',
+            success: function (response) {
+                $('.message').show();
+                if (response.flag == '1') {
+                    $('.message').text(response.massage);
+                } else {
+                    $('.message').html('<span class="error">'+response.massage+'</span>');
+                }
+                $('.loading').hide();
+            }
+        });
+    } else {
+        console.log("The form is invalid !");
+    }
+    $('#submit').removeClass('disabled');
+    $('#submit').removeAttr('disabled');
+    return false;
+}
