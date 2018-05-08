@@ -76,7 +76,7 @@
                     <div class="col-md-5">
                         <div class="panel-shadow tc-panel">
                             <h5>
-                                Fique por dentro de todas as oportunidades e dicas profissionais da LOGUBER. 
+                                Fique por dentro de todas as oportunidades e dicas profissionais da <div class="duas-cores">LOG<span>UBER<span></div>. 
                             </h5>
                             <a href="https://www.linkedin.com/company/loguber/" target="_blank">
                                 <i class="fa fa-linkedin-square fa-5x"></i>

@@ -12,9 +12,9 @@
         </ol>
         <div class="carousel-inner">
             <div class="item active">
-                <div class="thumbnail">                        
+                <div class="thumbnail">
                     <div class="carousel-caption">
-                        <h2>LOGUBER</h2>                            
+                        <h2><div class="duas-cores">LOG<span>UBER<span></div></h2>
                         <p>Uma empresa constituída para atender uma nova forma de gestão em transportes de cargas no mercado.</p>
                         <a href="loguber" class="btn btn-primary float-right" role="button">Saiba mais <i class="fa fa-arrow-right"></i></a>
                     </div>

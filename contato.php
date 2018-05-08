@@ -6,7 +6,7 @@
             <h1>CONTATO</h1>
         </div>        
         <section>
-            <h2>ENTRE EM CONTATO COM A LOGUBER</h2>
+            <h2>ENTRE EM CONTATO COM A <div class="duas-cores">LOG<span>UBER<span></div></h2>
         </section>
         <div class="blue-strip contato">
     		<section>
@@ -94,7 +94,7 @@
                         11 99013-3541 | 11 99013-4336 | 11 3090-6599
                     </p>
                     <p>
-                        operacional@loguber.com.br
+                        comercial@loguber.com.br
                     </p>
                 </div>
             </div>

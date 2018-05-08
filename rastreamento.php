@@ -5,39 +5,57 @@
     		<div class="banner-page banner-loguber">
     			<h1>RASTREAMENTO</h1>
     		</div>
-    		<section>
 
-                <a class="btn btn-primary" onclick="
-                document.getElementById('RastreDestinatario').style.display='';
-                document.getElementById('RastreRemetente').style.display='none';
-                document.getElementById('RastrePagador').style.display='none';
+    		<section id=rastreamento>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>
+                            <a onclick="
+                                document.getElementById('RastreDestinatario').style.display='';
+                                document.getElementById('RastreRemetente').style.display='none';
+                                document.getElementById('RastrePagador').style.display='none';
 
-                document.getElementById('iFramePagador').style.display='none';
-                document.getElementById('iFrameDestinatario').style.display='none';
-                document.getElementById('iFrameRemetente').style.display='none';
-                " class="BtRastreamentoDestinatario">Destino</a>
-                <a class="btn btn-primary" onclick="
-                document.getElementById('RastreDestinatario').style.display='none';
-                document.getElementById('RastreRemetente').style.display='';
-                document.getElementById('RastrePagador').style.display='none';
+                                document.getElementById('iFramePagador').style.display='none';
+                                document.getElementById('iFrameDestinatario').style.display='none';
+                                document.getElementById('iFrameRemetente').style.display='none';
+                                " class="btn-rastr BtRastreamentoDestinatario active">
+                                Destino
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>
+                            <a onclick="
+                            document.getElementById('RastreDestinatario').style.display='none';
+                            document.getElementById('RastreRemetente').style.display='';
+                            document.getElementById('RastrePagador').style.display='none';
 
-                document.getElementById('iFramePagador').style.display='none';
-                document.getElementById('iFrameDestinatario').style.display='none';
-                document.getElementById('iFrameRemetente').style.display='none';
-                " class="BtRastreamentoRemetente">Remetente</a>
-                <a class="btn btn-primary" onclick="
-                document.getElementById('RastreDestinatario').style.display='none';
-                document.getElementById('RastreRemetente').style.display='none';
-                document.getElementById('RastrePagador').style.display='';
+                            document.getElementById('iFramePagador').style.display='none';
+                            document.getElementById('iFrameDestinatario').style.display='none';
+                            document.getElementById('iFrameRemetente').style.display='none';
+                            " class="btn-rastr BtRastreamentoRemetente">
+                                Remetente
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>
+                            <a onclick="
+                            document.getElementById('RastreDestinatario').style.display='none';
+                            document.getElementById('RastreRemetente').style.display='none';
+                            document.getElementById('RastrePagador').style.display='';
 
-                document.getElementById('iFramePagador').style.display='none';
-                document.getElementById('iFrameDestinatario').style.display='none';
-                document.getElementById('iFrameRemetente').style.display='none';
-                " class="BtRastreamentoPagador">Pagador</a>
-
-
+                            document.getElementById('iFramePagador').style.display='none';
+                            document.getElementById('iFrameDestinatario').style.display='none';
+                            document.getElementById('iFrameRemetente').style.display='none';
+                            " class="btn-rastr BtRastreamentoPagador">
+                                Pagador
+                            </a>
+                        </h2>
+                    </div>
+                </div>
+                
                 <div class="BgFormRastreamento" id="RastreDestinatario">
-                    <h2 class="TitFormulario">DESTINATÁRIO</h2>
                     <div class="Clear_Both"></div>
                     <p>
                         Para CNPJ (só números) informe a SENHA que deve ser obtida com a transportadora.
@@ -70,7 +88,6 @@
                     </div>
 
                     <div class="BgFormRastreamento" id="RastreRemetente" style="display: none;">
-                        <h2 class="TitFormulario">REMETENTE</h2>
                         <div class="Clear_Both"></div>
                         <p>
                             Entre com Notas Fiscais e o CNPJ/CPF (só números) do remetente da carga a ser rastreada.
@@ -102,7 +119,6 @@
                     </div>
 
                     <div class="BgFormRastreamento" id="RastrePagador" style="display: none;">
-                        <h2 class="TitFormulario">PAGADOR</h2>
                         <div class="Clear_Both"></div>
                         <p>Entre com o CNPJ/CPF (só números) do remetente da carga a ser rastreada e informe sua senha.</p>
 

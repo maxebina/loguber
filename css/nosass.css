@@ -1,3 +1,37 @@
+.duas-cores {
+	color: #2a3f50;
+	display: inline;
+}
+.duas-cores span {
+	color: #5795cf;
+}
+.duas-cores-branco {
+	color: #3a96d3;
+}
+#rastreamento .row {
+	margin-bottom: 10px;
+	text-align: center;
+}
+#rastreamento h2 a {
+	color: #3a96d3;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+#rastreamento .active {
+	color: #2a3f50;
+	text-decoration: underline;
+}
+.img-change {
+    margin-top: 95px !important;
+}
+#tab-motorista a, #tab-vendedor a {
+	color: #fff;
+	text-decoration: underline;
+}
+#tab-motorista a:hover, #tab-vendedor a:hover {
+	color: #2a3f50;
+}
+
 @media screen and (max-width: 768px) {
 
 }

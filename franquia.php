@@ -63,10 +63,33 @@
                                 Aplicativo para acompanhamento de desencolvimento do negócio.
                             </li>
                         </ul>
+                        <p>
+                            <a href="contato">Clique aqui</a> e solicite mais informações.
+                        </p>
                     </div>
                     <div id="tab-vendedor">
+                        <ul>
+                            <li>
+                                Desenvolvimento da sua rede para vendas de fretes;
+                            </li>
+                            <li>
+                                Treinamento e atendimento especifico, para cada cliente;
+                            </li>
+                            <li>
+                                Sistema para controle e acompanhamento da sua rede de vendas;
+                            </li>
+                            <li>
+                                Espaço físico para reunião;
+                            </li>
+                            <li>
+                                Material para atendimento;
+                            </li>
+                            <li>
+                                Sistema para o seu cliente acompanhar sua carga e atendimento via fone.
+                            </li>
+                        </ul>
                         <p>
-                            Com a crescente no mercado de venda de serviços e produtos, a <strong>LOGUBER</strong> consegue oferecer desenvolvimento e criação de uma rede, fazendo com que seu vendedor vise o crescimento de sua equipe de vendas.
+                            <a href="contato">Clique aqui</a> e solicite mais informações.
                         </p>
                     </div>
                 </section>

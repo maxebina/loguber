@@ -8,16 +8,15 @@
     		<section>
           <div class="row">
             <div class="col-md-8">
-              <h2>A TECNOLOGIA É UM FATOR DIFERENCIAL ENTRE AS EMPRESAS</h2>
-              <h3>As soluções tecnológicas, que a Loguber gestão em transportes disponibiliza aos seus clientes, garantem integração com todo o processo.</h3>
+              <h2>CONHEÇA A TECNOLOGIA QUE A <div class="duas-cores">LOG<span>UBER<span></div> UTILIZA:</h2>
               <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
                   <div class="panel-heading" role="tab" id="headingOne">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                       <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="btn1" value="Click">
                         DIGITALIZAÇÃO E ACESSO VIA WEB DOS COMPROVANTES DE ENTREGA 
                       </a>
-                    </h4>
+                    </h3>
 
                   </div>
                   <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
@@ -34,11 +33,11 @@
 
                 <div class="panel panel-default">
                   <div class="panel-heading" role="tab" id="headingTwo">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                       <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="btn2" value="Click">
                         TECNOLOGIA DA INFORMAÇÃO
                       </a>
-                    </h4>
+                    </h3>
 
                   </div>
                   <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -52,11 +51,11 @@
 
                 <div class="panel panel-default">
                   <div class="panel-heading" role="tab" id="headingThree">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                       <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="btn3" value="Click">
                         INTERAÇÃO TOTAL COM O CLIENTE
                       </a>
-                    </h4>
+                    </h3>
 
                   </div>
                   <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -85,11 +84,11 @@
 
                 <div class="panel panel-default">
                   <div class="panel-heading" role="tab" id="headingFour">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                       <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" id="btn4" value="Click">
                         EMISSÃO DE CT-E À PARTIR DA NF-E
                       </a>
-                    </h4>
+                    </h3>
 
                   </div>
                   <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
@@ -103,11 +102,11 @@
 
                 <div class="panel panel-default">
                   <div class="panel-heading" role="tab" id="headingFive">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                       <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" id="btn5" value="Click">
                         SATÉLITE CAMINHÃO
                       </a>
-                    </h4>
+                    </h3>
 
                   </div>
                   <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
@@ -142,7 +141,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Comprovante de Entrega</h4>
+              <h3 class="modal-title">Comprovante de Entrega</h3>
             </div>
             <div class="modal-body tac">              
               <img src="img/tec-comprovantes.png"/>
