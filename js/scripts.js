@@ -15,6 +15,9 @@ $(document).ready(function () {
    $( "#btn5" ).click(function() {
         $("#img").attr("src", "img/tec-satelite-caminhao.png");
    });
+   $( "#btn6" ).click(function() {
+        $("#img").attr("src", "img/tec-emissao-nfe.png");
+   });
 });
 
 // Change Value
