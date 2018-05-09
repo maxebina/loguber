@@ -1468,9 +1468,9 @@ textarea {
 }
 
 .img-motoristas {
-  background-size: cover;
   display: block;
-  width: 420px;
+  width: 100%;
+  object-fit: cover;
 }
 
 @import "sticky-footer-navbar";
