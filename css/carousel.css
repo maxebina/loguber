@@ -88,18 +88,18 @@
 }
 
 .carousel-caption {
-  animation-delay: 5s, 5s;
+  animation-delay: 1s, 1s;
   bottom: 0;
   display: block;
   left: 41%;
   padding: 0 30px 0 270px;
   position: absolute;
   right: 0%;
-  animation: caption-bg-animation 2s ease-out;
-  -o-animation: caption-bg-animation 2s ease-out;
-  -ms-animation: caption-bg-animation 2s ease-out;
-  -moz-animation: caption-bg-animation 2s ease-out;
-  -webkit-animation: caption-bg-animation 2s ease-out;
+  animation: caption-bg-animation 1s ease-out;
+  -o-animation: caption-bg-animation 1s ease-out;
+  -ms-animation: caption-bg-animation 1s ease-out;
+  -moz-animation: caption-bg-animation 1s ease-out;
+  -webkit-animation: caption-bg-animation 1s ease-out;
   text-align: left;
   text-shadow: none;
 }
