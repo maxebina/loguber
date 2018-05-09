@@ -1438,6 +1438,12 @@ textarea {
   color: red;
 }
 
+.img-motoristas {
+  background-size: cover;
+  display: block;
+  width: 420px;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 .footer {
@@ -1684,6 +1690,10 @@ code {
 
 .mt-20 {
   margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 .mb-20 {

@@ -1467,6 +1467,12 @@ textarea {
   }
 }
 
+.img-motoristas {
+  background-size: cover;
+  display: block;
+  width: 420px;
+}
+
 @import "sticky-footer-navbar";
 @import "carousel";
 
@@ -1485,6 +1491,9 @@ textarea {
 }
 .mt-20 {
   margin-top: 20px;
+}
+.mt-40 {
+  margin-top: 40px;
 }
 .mb-20 {
   margin-bottom: 20px;
