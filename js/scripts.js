@@ -233,12 +233,9 @@ function submitContactContent() {
 }
 
 // Adiconar class ativa
-var header = document.getElementById("rastreamento");
-var btns = header.getElementsByClassName("btn-rastr");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+$(document).ready(function() {
+    $(".btn-rastr").click(function () {
+        $(".btn-rastr").removeClass("active");
+        $(this).addClass("active");     
+    });
+});

@@ -1201,8 +1201,26 @@ body > .container {
   display: block;
 }
 
+.page #tab-motorista a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.page #tab-motorista a:hover {
+  color: #2a3f50;
+}
+
 .page #tab-vendedor {
   display: none;
+}
+
+.page #tab-vendedor a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.page #tab-vendedor a:hover {
+  color: #2a3f50;
 }
 
 .page.noticias img.noticia-img {
@@ -1349,7 +1367,7 @@ body > .container {
 }
 
 .img-change {
-  margin-top: 188px;
+  margin-top: 95px;
 }
 
 .img-change img {
@@ -1438,10 +1456,39 @@ textarea {
   color: red;
 }
 
+#rastr .row {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#rastr h2 a {
+  color: #3a96d3;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#rastr .active {
+  color: #2a3f50;
+  text-decoration: underline;
+}
+
 .img-motoristas {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+.duas-cores {
+  color: #2a3f50;
+  display: inline;
+}
+
+.duas-cores span {
+  color: #5795cf;
+}
+
+.duas-cores-branco {
+  color: #3a96d3;
 }
 
 /* Sticky footer styles
