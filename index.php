@@ -26,7 +26,7 @@
                     <div class="carousel-caption">
                         <div class="poly">
                             <h2>Tecnologia</h2>
-                            <p>As soluções tecnológicas, que a Loguber gestão em transportes disponibiliza aos seus clientes, garantem integração com todo o processo.</p>
+                            Conheça a Tecnologia que a <div class="duas-cores"><strong>LOG<span>UBER<span></strong></div> utiliza
                             <a href="tecnologia" class="btn btn-primary float-right" role="button">Saiba mais <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>

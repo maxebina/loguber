@@ -3,10 +3,10 @@
 	<?php include("header.php"); ?>
 	<div class="page">
 		<div class="banner-page banner-motoristas">
-			<h1>TECNOLOGIA</h1>
+			<h1>MOTORISTAS</h1>
 		</div>
 		<section>
-      <h2 class="mt-40 mb-20">PRECISA COLOCAR UM TÍTULO SOBRE MOTORISTAS AQUI</h2>
+      <h2 class="mt-40 mb-20">CAPACITAÇÃO PARA MOTORISTAS</h2>
       <div class="row">
         <div class="col-md-7">
           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">

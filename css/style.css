@@ -1755,6 +1755,6 @@ code {
   display: none;
 }
 
-.fr {
-  float: right;
+.di {
+  display: inline;
 }
