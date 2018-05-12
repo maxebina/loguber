@@ -18,7 +18,7 @@
                                 document.getElementById('iFramePagador').style.display='none';
                                 document.getElementById('iFrameDestinatario').style.display='none';
                                 document.getElementById('iFrameRemetente').style.display='none';
-                                " class="btn-rastr BtRastreamentoDestinatario active">
+                                " class="btn btn-primary btn-lg btn-rastr BtRastreamentoDestinatario active">
                                 Destino
                             </a>
                         </h2>
@@ -33,7 +33,7 @@
                             document.getElementById('iFramePagador').style.display='none';
                             document.getElementById('iFrameDestinatario').style.display='none';
                             document.getElementById('iFrameRemetente').style.display='none';
-                            " class="btn-rastr BtRastreamentoRemetente">
+                            " class="btn btn-primary btn-lg btn-rastr BtRastreamentoRemetente">
                                 Remetente
                             </a>
                         </h2>
@@ -48,7 +48,7 @@
                             document.getElementById('iFramePagador').style.display='none';
                             document.getElementById('iFrameDestinatario').style.display='none';
                             document.getElementById('iFrameRemetente').style.display='none';
-                            " class="btn-rastr BtRastreamentoPagador">
+                            " class="btn btn-primary btn-lg btn-rastr BtRastreamentoPagador">
                                 Pagador
                             </a>
                         </h2>

@@ -1,7 +1,7 @@
 
         <footer class="footer">
             <p class="text-muted"><i class="fa fa-copyright" aria-hidden="true"></i> <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> - LOG<span class="duas-cores-branco">UBER</span> | Transportando para todos - Todos os direitos reservados.</p>
-            <p><span class="fa fa-whatsapp"></span> 11 3090-6599 - 11 99013-3541 - 11 99013-4336 | comercial@loguber.com.br</p>
+            <p>11 3090-6599 - <span class="fa fa-whatsapp"></span> 11 99013-3541 - <span class="fa fa-whatsapp"></span> 11 99013-4336 | comercial@loguber.com.br</p>
 
             <ul class="social-menu">
                 <li><a href="https://fb.me/loguber" target="_blank"><span class="fa fa-facebook-square fa-3x"></span></a></li>

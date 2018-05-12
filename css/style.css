@@ -1120,13 +1120,13 @@ body > .container {
 .page .adress-box {
   background: #fff;
   display: block;
-  padding: 24px 0;
+  padding: 27px 0;
   width: 100%;
 }
 
 .page .adress-box i {
   color: #2a3f50;
-  font-size: 16em;
+  font-size: 14em;
 }
 
 .page .adress-box h3 {
@@ -1462,13 +1462,13 @@ textarea {
 }
 
 #rastr h2 a {
-  color: #3a96d3;
+  color: #fff;
   cursor: pointer;
   margin-bottom: 10px;
 }
 
 #rastr .active {
-  color: #2a3f50;
+  color: #fff;
   text-decoration: underline;
 }
 
