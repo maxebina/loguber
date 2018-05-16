@@ -2,17 +2,17 @@
   RewriteEngine On
   RewriteBase /
  
-  RewriteRule ^index/?$ loguber/ [NC,L]
-  RewriteRule ^loguber/?$ loguber/loguber.php [NC,L]
-  RewriteRule ^servicos/?$ loguber/servicos.php [NC,L]
-  RewriteRule ^rastreamento/?$ loguber/rastreamento.php [NC,L]
-  RewriteRule ^tecnologia/?$ loguber/tecnologia.php [NC,L]
-  RewriteRule ^franquia/?$ loguber/franquia.php [NC,L]
-  RewriteRule ^noticias/?$ loguber/noticias.php [NC,L]
-  RewriteRule ^motoristas/?$ loguber/motoristas.php [NC,L]
-  RewriteRule ^contato/?$ loguber/contato.php [NC,L]
-  RewriteRule ^responsabilidade-social/?$ loguber/responsabilidade-social.php [NC,L]
-  RewriteRule ^trabalhe-conosco/?$ loguber/trabalhe-conosco.php [NC,L]
+  RewriteRule ^index/?$  [NC,L]
+  RewriteRule ^loguber/?$ loguber.php [NC,L]
+  RewriteRule ^servicos/?$ servicos.php [NC,L]
+  RewriteRule ^rastreamento/?$ rastreamento.php [NC,L]
+  RewriteRule ^tecnologia/?$ tecnologia.php [NC,L]
+  RewriteRule ^franquia/?$ franquia.php [NC,L]
+  RewriteRule ^noticias/?$ noticias.php [NC,L]
+  RewriteRule ^motoristas/?$ motoristas.php [NC,L]
+  RewriteRule ^contato/?$ contato.php [NC,L]
+  RewriteRule ^responsabilidade-social/?$ responsabilidade-social.php [NC,L]
+  RewriteRule ^trabalhe-conosco/?$ trabalhe-conosco.php [NC,L]
   
-  RewriteRule ^por-que-saber-o-minimo-de-logistica/?$ loguber/por-que-saber-o-minimo-de-logistica.php [NC,L]
+  RewriteRule ^por-que-saber-o-minimo-de-logistica/?$ por-que-saber-o-minimo-de-logistica.php [NC,L]
 </IfModule>

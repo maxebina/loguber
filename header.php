@@ -37,7 +37,7 @@
             <div class="secondary-menu">
                 <ul>
                     <li<?php if ($thisPage=="Transportantado para todos") echo " id=\"currentpage\""; ?>>
-                        <a href="index">Home</a>
+                        <a href="http://www.loguber.com.br/">Home</a>
                     </li>
                     <li<?php if ($thisPage=="Responsabilidade Social") echo " id=\"currentpage\""; ?>>
                         <a href="responsabilidade-social">Responsabilidade Social</a>
@@ -63,7 +63,7 @@
                     </button>
                     <!-- Collapse Button Ends -->
                     <!-- Logo Starts -->
-                    <a href="index" class="navbar-brand">
+                    <a href="http://www.loguber.com.br/" class="navbar-brand">
                         <img class="img-responsive" src="img/logo-loguber.png" alt="Logo LOGUBER">
                     </a>
                     <!-- Logo Ends -->
@@ -81,17 +81,16 @@
                         <li<?php if ($thisPage=="Rastreamento") echo " id=\"currentpage\""; ?>>
                             <a href="rastreamento">Rastreamento</a>
                         </li>
-                        <li<?php if ($thisPage=="Tecnologia") echo " id=\"currentpage\""; ?> class="dropdown">
+                        <li<?php if ($thisPage=="Tecnologia") echo " id=\"currentpage\""; ?>>
                             <a href="tecnologia">Tecnologia</a>
-                        </li>
-                        
-                        <li<?php if ($thisPage=="Franquia") echo " id=\"currentpage\""; ?> class="dropdown">
+                        </li>                        
+                        <li<?php if ($thisPage=="Franquia") echo " id=\"currentpage\""; ?>>
                             <a href="franquia">Franquia</a>
                         </li>
-                        <li<?php if ($thisPage=="Notícias") echo " id=\"currentpage\""; ?> class="dropdown">
+                        <li<?php if ($thisPage=="Notícias") echo " id=\"currentpage\""; ?>>
                             <a href="noticias">Notícias</a>
                         </li>
-                        <li<?php if ($thisPage=="Motoristas") echo " id=\"currentpage\""; ?> class="dropdown">
+                        <li<?php if ($thisPage=="Motoristas") echo " id=\"currentpage\""; ?>>
                             <a href="motoristas">Motoristas
                         </li>
 

@@ -1,4 +1,4 @@
-	<?php $thisPage="LOGUBER"; ?>
+	<?php $thisPage="Loguber"; ?>
     <?php $your_meta_description="Descrição aqui"; ?>
 	<?php include("header.php"); ?>
 		<div class="page">
