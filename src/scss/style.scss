@@ -158,6 +158,7 @@ header {
     margin-top: -34px !important;
     float: right;    
     clear: both;
+    display: inline-flex;
   }
   .navbar-nav > li {
     &:hover > a, &.active > a {

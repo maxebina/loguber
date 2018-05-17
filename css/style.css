@@ -166,6 +166,7 @@ header#nav.navbar-default {
   margin-top: -34px !important;
   float: right;
   clear: both;
+  display: inline-flex;
 }
 
 #nav .navbar-nav > li:hover > a, #nav .navbar-nav > li.active > a {
