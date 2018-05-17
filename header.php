@@ -71,7 +71,7 @@
                 <!-- Navbar Header Ends -->
                 <!-- Navbar Collapse Starts -->
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
+                    <ul class="navbar-nav">
                         <li<?php if ($thisPage=="LOGUBER") echo " id=\"currentpage\""; ?>>
     				        <a href="loguber">Loguber</a>
     				    </li>
@@ -93,7 +93,6 @@
                         <li<?php if ($thisPage=="Motoristas") echo " id=\"currentpage\""; ?>>
                             <a href="motoristas">Motoristas
                         </li>
-
                         <li<?php if ($thisPage=="Contato") echo " id=\"currentpage\""; ?>>
     				        <a href="contato" class="pr-0">Contato</a>
     				    </li>

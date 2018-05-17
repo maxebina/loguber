@@ -102,17 +102,20 @@ header {
 #nav {
   &.navbar-default {
     .navbar-nav {
+      float: right;
+      margin-top: 19px;
       >li {
         transition: all 0.4s ease;
         -o-transition: all 0.4s ease;
         -ms-transition: all 0.4s ease;
         -moz-transition: all 0.4s ease;
         -webkit-transition: all 0.4s ease;
+        background: #3a96d3;
+        padding: 4px 8px;
+        list-style: none;
       &:hover {
         background: #2a3f50;
       }
-      background: #3a96d3;
-      padding: 4px 8px;
       &:first-child {
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
@@ -158,7 +161,6 @@ header {
     margin-top: -34px !important;
     float: right;    
     clear: both;
-    display: inline-flex;
   }
   .navbar-nav > li {
     &:hover > a, &.active > a {
@@ -723,6 +725,11 @@ h2 {
   }
   .navbar-collapse {
     border-top: none;
+  }
+  .navbar-nav {
+    float: none !important;
+     margin-top: 0px !important;
+     text-align: center;
   }
   .panel-body {
     margin: 0 0 0 15px !important;
