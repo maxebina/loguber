@@ -1390,16 +1390,17 @@ header.shrink .main-menu {
   opacity: 0.9;
 }
 
-header.shrink .main-menu ul.social-menu {
-  margin-bottom: 42px;
-}
-
 header.shrink .secondary-menu ul {
   margin-top: -1px;
 }
 
 header.shrink .navbar-brand {
   width: 200px;
+}
+
+header.shrink .navbar-nav {
+  margin-top: 9px !important;
+  margin-left: 1px;
 }
 
 .tab-content {

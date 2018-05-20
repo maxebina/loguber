@@ -1402,11 +1402,6 @@ header {
     .main-menu {
       margin-top: 18px;
       opacity: 0.9;
-      ul {
-        &.social-menu {
-          margin-bottom: 42px;
-        }
-      }
     }
     .secondary-menu {
       ul {
@@ -1415,6 +1410,10 @@ header {
     }
     .navbar-brand {
       width: 200px;
+    }
+    .navbar-nav {
+      margin-top: 9px !important;
+      margin-left: 1px;
     }
   }
 }
