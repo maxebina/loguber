@@ -167,6 +167,7 @@ header {
       color: #fff;
       border-bottom: 1px solid #fff;
       display: inline;
+      text-decoration: none;
     }
     > a {
       &:hover, &:focus {
@@ -728,8 +729,8 @@ h2 {
   }
   .navbar-nav {
     float: none !important;
-     margin-top: 0px !important;
-     text-align: center;
+    margin-top: 0px !important;
+    text-align: center;
   }
   .panel-body {
     margin: 0 0 0 15px !important;

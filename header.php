@@ -13,7 +13,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Content-Language" content="pt-br">
+    <meta name="rating" content="General"/>
+    <meta name="expires" content="0"/>
+    <meta name="language" content="portuguese, pt-BR"/>
+    <meta name="distribution" content="Global"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="googlebot" content="index,follow"/>
+    <meta name="msnbot" content="index,follow"/>
+    <meta name="revisit-after" content="3 Days"/>
+    <meta name="author" content="Max Ebina - www.maxebina.com.br"/>
+    <meta name="publisher" content="Max Ebina - www.maxebina.com.br"/>
+    <meta name="copyright" content="Max Ebina - 2018"/>
+
+    <meta name="keywords" content="<?php echo $your_meta_keywords ?>" />
     <meta name="description" content="<?php echo $your_meta_description ?>" />
+
     <title>LOGUBER - <?php echo $thisPage ?></title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.min.css" rel="stylesheet">
@@ -72,7 +88,7 @@
                 <!-- Navbar Collapse Starts -->
                 <div class="navbar-collapse collapse">
                     <ul class="navbar-nav">
-                        <li<?php if ($thisPage=="LOGUBER") echo " id=\"currentpage\""; ?>>
+                        <li<?php if ($thisPage=="Loguber") echo " id=\"currentpage\""; ?>>
     				        <a href="loguber">Loguber</a>
     				    </li>
                         <li<?php if ($thisPage=="Serviços") echo " id=\"currentpage\""; ?>>

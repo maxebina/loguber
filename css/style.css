@@ -178,6 +178,7 @@ header#nav.navbar-default {
   color: #fff;
   border-bottom: 1px solid #fff;
   display: inline;
+  text-decoration: none;
 }
 
 #nav .navbar-nav > li > a:hover, #nav .navbar-nav > li > a:focus {
