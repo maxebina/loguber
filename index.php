@@ -1,5 +1,5 @@
     <?php $thisPage="Transportantado para todos"; ?>
-    <?php $your_meta_keywords="LOGUBER, Transportando para todos, Cargas, Tecnologia, Franquia, Rastreamento, Motoristas, Notícias, Empresa, Atender, Gestão, Transportes, Vendedores, Frete, Localize, Logística, Notícias, Serviços, "; ?>
+    <?php $your_meta_keywords="LOGUBER, Transportando para todos, Cargas, Tecnologia, Franquia, Rastreamento, Motoristas, Notícias, Empresa, Atender, Gestão, Transportes, Vendedores, Frete, Localize, Logística, Notícias, Serviços, Novidades, 2018"; ?>
     <?php $your_meta_description="LOGUBER - Transposrtando para todos"; ?>
     <?php include("header.php"); ?>
 	

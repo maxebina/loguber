@@ -1,5 +1,6 @@
     <?php $thisPage="Contato"; ?>
-    <?php $your_meta_description="Descrição aqui"; ?>
+    <?php $your_meta_keywords="LOGUBER, Contato, Transportando para todos, Cargas, Tecnologia, Franquia, Rastreamento, Motoristas, Notícias, Empresa, Atender, Gestão, Transportes, Vendedores, Frete, Localize, Logística, Notícias, Serviços, Novidades"; ?>
+    <?php $your_meta_description="Entre em contato com a LOGUBER"; ?>
     <?php include("header.php"); ?>
     <div class="page">
         <div class="banner-page banner-contato">

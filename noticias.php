@@ -1,5 +1,6 @@
 	<?php $thisPage="Notícias"; ?>
-    <?php $your_meta_description="Descrição aqui"; ?>
+    <?php $your_meta_keywords="LOGUBER, Transportando para todos, Cargas, Tecnologia, Franquia, Rastreamento, Motoristas, Notícias, Empresa, Atender, Gestão, Transportes, Vendedores, Frete, Localize, Logística, Notícias, Serviços, Novidades"; ?>
+    <?php $your_meta_description="Tudo sobre o mundo da logística, transporte e cargas"; ?>
 	<?php include("header.php"); ?>
 		<div class="page noticias">
     		<div class="banner-page banner-noticias">

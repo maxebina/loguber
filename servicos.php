@@ -1,5 +1,6 @@
     <?php $thisPage="Serviços"; ?>
-    <?php $your_meta_description="Descrição aqui"; ?>
+    <?php $your_meta_keywords="LOGUBER, Serviços, Carga lotação, FTL, Full Truckload, Distribuição de cargas de lotação, especialista em gestão de carga, transportes de carga lotação, Gerenciamento de risco, Parceiros, Seguradora, Coleta, Cotação, Brasil, Estado, Sul, Sudeste, Centro-Oeste, Nordeste"; ?>
+    <?php $your_meta_description="Serviços LOGUBER"; ?>
     <?php include("header.php"); ?>
         <div class="page">
             <div class="banner-page banner-servicos">

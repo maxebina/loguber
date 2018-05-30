@@ -1,5 +1,7 @@
 	<?php $thisPage="Tecnologia"; ?>
-  <?php $your_meta_description="Descrição aqui"; ?>
+  <?php $your_meta_keywords="LOGUBER, Tecnologia, Sistema, Acompanhamento, Rastreabilidade, Acesso ao Sistema, EDI, Arquivos eletrônicos, Software TMS, Ocorrências via e-mail, Internet, Integração total, Notas Fiscais, Embarcados, Ocorrências, Pré-faturas, Clientes, FTP, Webservice, Arquivos"; ?>
+    <?php $your_meta_description="Rastreamento LOGUBER"; ?>
+  <?php $your_meta_description="Conheça a tecnologia que a LOGUBER utiliza"; ?>
 	<?php include("header.php"); ?>
 		<div class="page">
   		<div class="banner-page banner-tecnologia">
@@ -22,7 +24,7 @@
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                   <div class="panel-body">
                     <p>
-                      Operação com o mais moderno e completo Software TMS do país, permitindo o cliente à consultar o status de sua mercadoria a qualquer moemnto.
+                      Operação com o mais moderno e completo Software TMS do país, permitindo o cliente à consultar o status de sua mercadoria a qualquer moemento.
                     </p>
                     <a href="" class="btn btn-primary fr cb" role="button" data-toggle="modal" data-target="#myModal">
                       Clique aqui para ampliar <i class="fa fa-arrow-right"></i>

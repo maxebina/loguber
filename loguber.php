@@ -1,5 +1,6 @@
 	<?php $thisPage="Loguber"; ?>
-    <?php $your_meta_description="Descrição aqui"; ?>
+    <?php $your_meta_keywords="LOGUBER, Transportando para todos, Empresa, Atender, Gestão, Transportes, Cargas, Mercado, Profissionais, Setor logístico, Gestão em Transportes de Cargas, Comprometimento, Prazos, Desenvolvimento com parceiros, Indústrias, Contratação de frete, Relacionamento com o cliente, Missão, Visão, Valores"; ?>
+    <?php $your_meta_description="Uma empresa constituída para atender uma nova forma de gestão em transportes de cargas no mercado."; ?>
 	<?php include("header.php"); ?>
 		<div class="page">
     		<div class="banner-page banner-loguber">

@@ -1,5 +1,6 @@
 	<?php $thisPage="Motoristas"; ?>
-  <?php $your_meta_description="Descrição aqui"; ?>
+  <?php $your_meta_keywords="LOGUBER, Capacitação para motoristas, Inclusão de mulheres, Política de segurança, Saúde, Meio ambiente, Curso de direção defensiva, Gerenciamenteo de riscos, Curso MOPP, Curso sobre resolução 168, Ética pessoal e profissional, Preocupação, Compromisso, Caminhões, Inclusão Igualdade, Atendimento, Profissão, Empresa, Capacitação"; ?>
+  <?php $your_meta_description="Capacitação para motoristas"; ?>
 	<?php include("header.php"); ?>
 	<div class="page">
 		<div class="banner-page banner-motoristas">
@@ -14,7 +15,7 @@
               <div class="panel-heading" role="tab" id="headingOne">
                 <h3 class="panel-title">
                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" value="Click">
-                    INCLUSÃO DAS MULHERES NO TRANSPORTES DE CARGAS:
+                    INCLUSÃO DAS MULHERES NO TRANSPORTES DE CARGAS
                   </a>
                 </h3>
 

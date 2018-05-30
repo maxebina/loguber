@@ -1,5 +1,6 @@
 	<?php $thisPage="Rastreamento"; ?>
-    <?php $your_meta_description="Descrição aqui"; ?>
+    <?php $your_meta_keywords="LOGUBER, Rastreamento, Destino, Remetente, Pagador, CNPJ, Transportadora, CPF, Destinatário"; ?>
+    <?php $your_meta_description="Rastreamento LOGUBER"; ?>
 	<?php include("header.php"); ?>
 		<div class="page">
     		<div class="banner-page banner-loguber">

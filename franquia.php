@@ -1,5 +1,6 @@
 	<?php $thisPage="Franquia"; ?>
-    <?php $your_meta_description="Descrição aqui"; ?>
+    <?php $your_meta_keywords="LOGUBER, Franquia do motorista, Franquia do Vendedor, Modelo de franquia, Recursos, Profissionalização, Atendimentos, Mapeando, Padronizando, Atendimento, Região, Vantagens, ANTT, CTE, Fatura, Desenvolvimento da sua rede, Treinamento, Rede de vendas, Atendimento, Espaço físico, Reunião"; ?>
+    <?php $your_meta_description="Entenda o modelo de franquia para motoristas e vendedores"; ?>
 	<?php include("header.php"); ?>
 		<div class="page">
     		<div class="banner-page banner-franquia">
