@@ -1,5 +1,6 @@
 	<?php $thisPage="Responsabilidade Social"; ?>
-    <?php $your_meta_description="Descrição aqui"; ?>
+    <?php $your_meta_keywords="LOGUBER, Apoio institucional, Comprometimento com a sociedade, Você, Apoiar, Causas, Campanha do agasalho, Maio amarelo, Na mão certa, Novembro Azul, Outubro Rosa, Setembro Vermelho"; ?>
+    <?php $your_meta_description="Apoio institucional e comprometimento com a sociedade"; ?>
 	<?php include("header.php"); ?>
 		<div class="page responsabilidade">
     		<div class="banner-page banner-responsabilidade-social">

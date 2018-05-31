@@ -1,5 +1,6 @@
     <?php $thisPage="Trabalhe Conosco"; ?>
-    <?php $your_meta_description="Descrição aqui"; ?>
+    <?php $your_meta_keywords="LOGUBER, Trabalhe conosco, Parte, Nosso, Time, Colaboradores, Parceiros, Interesse, Contato, Formulário, Currículo, Oportunidades, Profissionais, Fique por dentro, Linkedin"; ?>
+    <?php $your_meta_description="Faça parte do nosso time - Investimos em nossos colaboradores e parceiros"; ?>
     <?php include("header.php"); ?>
         <div class="page">
             <div class="banner-page banner-trabalhe">

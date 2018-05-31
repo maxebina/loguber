@@ -14,5 +14,7 @@
   RewriteRule ^responsabilidade-social/?$ responsabilidade-social.php [NC,L]
   RewriteRule ^trabalhe-conosco/?$ trabalhe-conosco.php [NC,L]
   
+  ErrorDocument 404 /404.php
+  
   RewriteRule ^por-que-saber-o-minimo-de-logistica/?$ por-que-saber-o-minimo-de-logistica.php [NC,L]
 </IfModule>
