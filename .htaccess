@@ -17,4 +17,5 @@
   ErrorDocument 404 /404.php
   
   RewriteRule ^por-que-saber-o-minimo-de-logistica/?$ por-que-saber-o-minimo-de-logistica.php [NC,L]
+  RewriteRule ^governanca-criativa-e-transporte-entenda-essa-ligacao/?$ governanca-criativa-e-transporte-entenda-essa-ligacao.php [NC,L]
 </IfModule>
