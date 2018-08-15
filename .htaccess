@@ -19,4 +19,5 @@
   RewriteRule ^saiba-quais-sao-os-diferentes-tipos-de-carga-rodoviaria/?$ saiba-quais-sao-os-diferentes-tipos-de-carga-rodoviaria.php [NC,L]
   RewriteRule ^por-que-saber-o-minimo-de-logistica/?$ por-que-saber-o-minimo-de-logistica.php [NC,L]
   RewriteRule ^governanca-criativa-e-transporte-entenda-essa-ligacao/?$ governanca-criativa-e-transporte-entenda-essa-ligacao.php [NC,L]
+  RewriteRule ^como-elaborar-boas-rotas-de-entrega-e-reduzir-custos-logisticos/?$ como-elaborar-boas-rotas-de-entrega-e-reduzir-custos-logisticos.php [NC,L]
 </IfModule>
