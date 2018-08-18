@@ -139,16 +139,16 @@ $(function(){
 
 // Franquia
 $(function() {
-    $('#panel-motorista').click(function(e) {
-        $("#tab-motorista").delay(100).fadeIn(100);
-        $("#tab-vendedor").fadeOut(100);
+    $('#panel-1').click(function(e) {
+        $("#tab-1").delay(100).fadeIn(100);
+        $("#tab-2").fadeOut(100);
         $('.panel-shadow').removeClass('active');
         $(this).addClass('active');
         e.preventDefault();
     });
-    $('#panel-vendedor').click(function(e) {
-        $("#tab-vendedor").delay(100).fadeIn(100);
-        $("#tab-motorista").fadeOut(100);
+    $('#panel-2').click(function(e) {
+        $("#tab-2").delay(100).fadeIn(100);
+        $("#tab-1").fadeOut(100);
         $('.panel-shadow').removeClass('active');
         $(this).addClass('active');
         e.preventDefault();
@@ -200,13 +200,13 @@ function validateForm(formId) {
     });
     return validate;
 }
-function submitContactContent() {
+function submitContactContent1() {
     $('#submit').addClass('disabled');
     $('.message').hide();
     $('#submit').attr('disabled', 'disabled');
-    if (validateForm('contact-form')) {
+    if (validateForm('contact-form-1')) {
         $('.loading').show();
-        var formData = new FormData($('#contact-form')[0]);
+        var formData = new FormData($('#contact-form-1')[0]);
         $.ajax({
             url: 'envia.php',
             data: formData,
@@ -231,6 +231,39 @@ function submitContactContent() {
     $('#submit').removeAttr('disabled');
     return false;
 }
+
+function submitContactContent2() {
+    $('#submit').addClass('disabled');
+    $('.message').hide();
+    $('#submit').attr('disabled', 'disabled');
+    if (validateForm('contact-form-2')) {
+        $('.loading').show();
+        var formData = new FormData($('#contact-form-2')[0]);
+        $.ajax({
+            url: 'envia.php',
+            data: formData,
+            processData: false,
+            contentType: false,
+            type: 'POST',
+            dataType: 'json',
+            success: function (response) {
+                $('.message').show();
+                if (response.flag == '1') {
+                    $('.message').text(response.massage);
+                } else {
+                    $('.message').html('<span class="error">'+response.massage+'</span>');
+                }
+                $('.loading').hide();
+            }
+        });
+    } else {
+        console.log("The form is invalid !");
+    }
+    $('#submit').removeClass('disabled');
+    $('#submit').removeAttr('disabled');
+    return false;
+}
+
 
 // Adiconar class ativa
 $(document).ready(function() {

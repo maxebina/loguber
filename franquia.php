@@ -12,7 +12,7 @@
                         <div class="panel panel-franquia">
                             <div class="row">
                                 <div class="col-xs-6">
-                                    <div class="panel-shadow active" id="panel-motorista">
+                                    <div class="panel-shadow active" id="panel-1">
                                         <a href="#">
                                             <img src="img/franquia-motorista.png">
                                             <h2>FRANQUIA DO MOTORISTA</h2>
@@ -21,7 +21,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-6">
-                                    <div class="panel-shadow" id="panel-vendedor">
+                                    <div class="panel-shadow" id="panel-2">
                                         <a href="#">
                                             <img src="img/franquia-vendedor.png">
                                             <h2>FRANQUIA DO VENDEDOR</h2>
@@ -36,7 +36,7 @@
     		</section>
             <div class="red-strip">
                 <section>
-                    <div id="tab-motorista">
+                    <div id="tab-1">
                         <p>
                             Existem diversos tipos de recursos junto ao mesmo para profissionalização em seus atendimentos, mapeando e padronizando o atendimento na região que mora.
                         </p>
@@ -68,7 +68,7 @@
                             <a href="contato">Clique aqui</a> e solicite mais informações.
                         </p>
                     </div>
-                    <div id="tab-vendedor">
+                    <div id="tab-2">
                         <ul>
                             <li>
                                 Desenvolvimento da sua rede para vendas de fretes;

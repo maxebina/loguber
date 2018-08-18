@@ -1197,6 +1197,33 @@ body > .container {
   transition: all 0.1s linear;
 }
 
+.page #contact-form-1 label, .page #contact-form-2 label {
+  margin-top: 20px;
+}
+
+.page #contact-form input[type=text] {
+  margin-top: 0px;
+}
+
+.page .panel-tc .panel-shadow {
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.page .panel-tc .panel-shadow.active {
+  background: #9cccfc;
+}
+
+.page .panel-tc .panel-shadow a {
+  text-decoration: none;
+}
+
+.page .panel-tc .panel-shadow a h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
 .page .red-strip {
   background: #ea4f3d;
   color: #fff;
@@ -1209,29 +1236,29 @@ body > .container {
   padding-left: 15px;
 }
 
-.page #tab-motorista {
+.page #tab-1 {
   display: block;
 }
 
-.page #tab-motorista a {
+.page #tab-1 a {
   color: #fff;
   text-decoration: underline;
 }
 
-.page #tab-motorista a:hover {
+.page #tab-1 a:hover {
   color: #2a3f50;
 }
 
-.page #tab-vendedor {
+.page #tab-2 {
   display: none;
 }
 
-.page #tab-vendedor a {
+.page #tab-2 a {
   color: #fff;
   text-decoration: underline;
 }
 
-.page #tab-vendedor a:hover {
+.page #tab-2 a:hover {
   color: #2a3f50;
 }
 
@@ -1339,10 +1366,6 @@ body > .container {
 
 .panel-shadow.tipo-servico span {
   color: #242f3f;
-}
-
-.panel-shadow.tc-panel {
-  margin-top: 110px;
 }
 
 .panel-shadow.tc-panel h5 {

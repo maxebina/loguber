@@ -1225,6 +1225,37 @@ body {
       transition: all 0.1s linear;
     }
   }
+
+  #contact-form-1, #contact-form-2{
+    label {
+      margin-top: 20px;
+    }
+  }
+
+  #contact-form {
+    input[type=text] {
+      margin-top: 0px;
+    }
+  }
+
+  .panel-tc {
+    .panel-shadow {
+      cursor: pointer;
+      margin-bottom: 20px;
+      padding: 10px;
+      &.active {
+        background: #9cccfc;
+      }
+      a {
+        text-decoration: none;
+        h3 {
+          margin: 0;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
   .red-strip {
     background: #ea4f3d;
     color: #fff;
@@ -1235,7 +1266,7 @@ body {
       padding-left: 15px;
     }
   }
-  #tab-motorista {
+  #tab-1 {
     display: block;
     a {
       color: #fff;
@@ -1245,7 +1276,7 @@ body {
       }
     }
   }
-  #tab-vendedor {
+  #tab-2 {
     display: none;
     a {
       color: #fff;
@@ -1356,7 +1387,6 @@ body {
     }
   }
   &.tc-panel {
-    margin-top: 110px;
     h5 {
       font: 22px 'Zilla Slab', serif;
       margin-bottom: 50px;
