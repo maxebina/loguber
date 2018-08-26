@@ -36,7 +36,7 @@
                             <div class="col-md-5 col-md-offset-1">
                                 <div class="form-group">
                                     <label for="form_telefone">Telefone *</label>
-                                    <input id="form_telefone" type="text" name="telefone" class="form-control" placeholder="Preencha o seu telefone *" required="required" data-error="Preencha o telefone">
+                                    <input id="form_telefone" type="text" name="telefone" class="form-control" placeholder="Preencha o seu telefone *" required="required" data-error="Preencha o telefone" maxlength="15">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>

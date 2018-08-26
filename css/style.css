@@ -1201,8 +1201,13 @@ body > .container {
   margin-top: 20px;
 }
 
-.page #contact-form input[type=text] {
+.page #contact-form input[type=text], .page #contact-form select {
   margin-top: 0px;
+}
+
+.page #contact-form .checkbox, .page #contact-form .radio {
+  float: left;
+  margin: 5px 20px 5px 0;
 }
 
 .page .panel-tc .panel-shadow {

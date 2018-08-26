@@ -116,7 +116,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="form_telefone">Telefone *</label>
-                                            <input id="form_telefone" type="text" name="telefone" class="form-control" placeholder="Preencha o seu telefone *" required="required" data-error="Telefone é um campo obrigatório.">
+                                            <input id="form_telefone" type="text" name="telefone" class="form-control" placeholder="Preencha o seu telefone *" required="required" data-error="Telefone é um campo obrigatório." maxlength="15">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
@@ -128,26 +128,216 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_estado">Estado *</label>
+                                            <input id="form_estado" type="text" name="estado" class="form-control" placeholder="Preencha o seu Estado *" required="required" data-error="Estado é um campo obrigatório.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_cidade">Cidade *</label>
+                                            <input id="form_cidade" type="cidade" name="cidade" class="form-control" placeholder="Preencha a cidade *" required="required" data-error="Cidade é um campo obrigatório.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_regiao">Região Atendida *</label>
+                                            <input id="form_regiao" type="text" name="regiao" class="form-control" placeholder="Preencha a Região Atendida *" required="required" data-error="Região Atendida é um campo obrigatório.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+
+                                        <div class="form-group">
+
+                                            <label for="form_funcionarios">Nº de funcionários *</label>
+
+                                            <select name="funcionarios" id="form_funcionarios" class="form-control chosen" data-placeholder="[Nº de funcionários]" data-error="Selecione uma opção" required>
+                                                <option value="">Selecione uma opção</option>
+                                                <option value="Até 5 funcionários">Até 5 funcionários</option>
+                                                <option value="de 5 a 10 funcionários">de 5 a 10 funcionários</option>
+                                                <option value="de 10 a 30 funcionários">de 10 a 30 funcionários</option>
+                                                <option value="Mais de 30 funcionários">Mais de 30 funcionários</option>
+                                                </select>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+
+                                            <div><strong>Possui Cadastro na ANTT ? *</strong></div>
+    
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="antt" id="form_antt" data-error="Escolha uma das duas opções" required>
+                                                    Sim
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="antt" id="form_antt" data-error="Escolha uma das duas opções" required>
+                                                    Não
+                                                </label>
+                                            </div>
+                                            <div class="help-block with-errors cb"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
 
                                 <div class="form-group">
+
+                                    <div><strong>Informações sobre os veículos</strong></div>
 
                                     <div class="checkbox">
                                         <label>
-                                        <input type="checkbox" id="terms" data-error="Before you wreck yourself" required>
-                                        Check yourself
+                                            <input type="checkbox" name="3x4" id="form_veiculos">
+                                            3x4
                                         </label>
                                         <label>
-                                        <input type="checkbox" id="terms2" data-error="Before you wreck yourself" required>
-                                        Check yourself
+                                            <input type="checkbox" name="carreta" id="form_veiculos">
+                                            Carreta
                                         </label>
-                                        <div class="help-block with-errors"></div>
+                                        <label>
+                                            <input type="checkbox" name="passeio" id="form_veiculos">
+                                            Carro de passeio
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="fiorino" id="form_veiculos">
+                                            Fiorino
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="kombi" id="form_veiculos">
+                                            Kombi
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="moto" id="form_veiculos">
+                                            Moto
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="toco" id="form_veiculos">
+                                            Toco
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="truck" id="form_veiculos">
+                                            Truck
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="vuchr" id="form_veiculos">
+                                            VUC HR
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="vuciveco" id="form_veiculos">
+                                            VUC Iveco
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="vuc" id="form_veiculos">
+                                            VUC
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="van" id="form_veiculos">
+                                            Van
+                                        </label>
                                     </div>
+                                    
+                                </div>
 
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_outros_veiculos">Outros veículos</label>
+                                            <textarea id="form_outros_veiculos" name="outros_veiculos" class="form-control" rows="4" ></textarea> 
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                                    <div><strong>Estou interessado em:</strong></div>
+
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="ate30" id="form_interesse">
+                                            Entrega de pedidos leves (até 30kg)
+                                        </label>
+                                    </div>
+
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="+30" id="form_interesse">
+                                            Entrega de pedidos pesados (+30kg)
+                                        </label>
+                                    </div>
+
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="armazenagem" id="form_interesse">
+                                            Serviços de armazenagem
+                                        </label>
+                                    </div>
+
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="leveate30" id="form_interesse">
+                                            Coleta de pedidos leves (até 30kg)
+                                        </label>
+                                    </div>
+
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="pesado+30" id="form_interesse">
+                                            Coleta de pedidos pesados (+30kg)
+                                        </label>
+                                    </div>
+
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="transferencias" id="form_interesse">
+                                            Transferências e Abastecimento
+                                        </label>
+                                    </div>
+
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="operacoes" id="form_interesse">
+                                            Operações Especiais
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mt-20"></div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_outras-informacoes">Outras informações</label>
+                                            <textarea id="form_outras_informacoes" name="outras_informacoes" class="form-control" rows="4" ></textarea> 
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-primary btn-send fr" value="Enviar mensagem">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="mt-20 fr"><strong>*</strong> Campos obrigatórios.</p>
+                                    </div>
                                 </div>
                             </form>
                         </div>                        

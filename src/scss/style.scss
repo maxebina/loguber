@@ -1233,8 +1233,12 @@ body {
   }
 
   #contact-form {
-    input[type=text] {
+    input[type=text], select {
       margin-top: 0px;
+    }
+    .checkbox, .radio {
+      float: left;
+      margin: 5px 20px 5px 0;
     }
   }
 
