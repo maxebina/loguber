@@ -7,14 +7,15 @@
 $from = $_POST['email'];
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'operacional@loguber.com.br , maxebina@gmail.com';
+$sendTo = 'maxebina@gmail.com';
+// $sendTo = 'operacional@loguber.com.br , maxebina@gmail.com';
 
 // subject of the email
-$subject = $_POST['estado'];
+$subject = $_POST['assunto'];
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('estado' => 'Assunto', 'name' => 'Nome', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'telefone' => 'Telefone', 'estado_origem' => 'Estado origem', 'message' => 'Messagem', 'veiculo' => 'Veículo', 'carga' => 'Carga', 'empresa' => 'Empresa'); 
+$fields = array('assunto' => 'Assunto', 'name' => 'Nome', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'telefone' => 'Telefone', 'estado_origem' => 'Estado origem', 'message' => 'Messagem', 'veiculo' => 'Veículo', 'carga' => 'Carga', 'empresa' => 'Empresa', 'endereco' => 'Endereço', 'estado' => 'Estado', 'cidade' => 'Cidade', 'regiao' => 'Região Atendida', 'funcionarios' => 'Nº de funcionários', 'antt' => 'Possui Cadastro na ANTT?', 'veiculos' => 'Informações sobre os veículos', 'outros_veiculos' => 'Outros veículos', 'interesse' => 'Estou interessado em', 'outras_informacoes' => 'Outras informações'); 
 
 // message that will be displayed when everything is OK :)
 $okMessage = 'Mensagem enviada com sucesso. Obrigado. Entraremos em contato em breve!';

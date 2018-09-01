@@ -40,7 +40,7 @@
                             </div>
                         </div>
 
-                        <div id="tab-2">
+                        <div id="tab-1">
                             <form method="POST" id="contact-form-1" enctype="multipart/form-data" onsubmit="return submitContactContent1();">
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2">
@@ -91,10 +91,14 @@
 
                                 <div class="message"></div>
                             </form>
+                            
                         </div>
 
-                        <div id="tab-1">
+                        <div id="tab-2">
                             <form id="contact-form" method="post" action="contact.php" role="form">
+
+                                <div class="messages"></div>
+                                
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">

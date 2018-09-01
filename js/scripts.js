@@ -22,97 +22,97 @@ $(document).ready(function () {
 
 // Change Value
 $('#uf-rn').click(function(){
-    $('#form_estado').val('Rio Grande do Norte');
+    $('#form_assunto').val('Rio Grande do Norte');
     $('#uf').text('Rio Grande do Norte');
 });
 
 $('#uf-pe').click(function(){
-    $('#form_estado').val('Pernambuco');
+    $('#form_assunto').val('Pernambuco');
     $('#uf').text('Pernambuco');
 });
 
 $('#uf-ce').click(function(){
-    $('#form_estado').val('Ceará');
+    $('#form_assunto').val('Ceará');
     $('#uf').text('Ceará');
 });
 
 $('#uf-pb').click(function(){
-    $('#form_estado').val('Paraíba');
+    $('#form_assunto').val('Paraíba');
     $('#uf').text('Paraíba');
 });
 
 $('#uf-al').click(function(){
-    $('#form_estado').val('Alagoas');
+    $('#form_assunto').val('Alagoas');
     $('#uf').text('Alagoas');
 });
 
 $('#uf-pi').click(function(){
-    $('#form_estado').val('Piauí');
+    $('#form_assunto').val('Piauí');
     $('#uf').text('Piauí');
 });
 
 $('#uf-ma').click(function(){
-    $('#form_estado').val('Maranhão');
+    $('#form_assunto').val('Maranhão');
     $('#uf').text('Maranhão');
 });
 
 $('#uf-df').click(function(){
-    $('#form_estado').val('Distrito Federal');
+    $('#form_assunto').val('Distrito Federal');
     $('#uf').text('Distrito Federal');
 });
 
 $('#uf-to').click(function(){
-    $('#form_estado').val('Cotação para o estado de Tocantins');
+    $('#form_assunto').val('Cotação para o estado de Tocantins');
     $('#uf').text('Cotação para o estado de Tocantins');
 });
 
 $('#uf-se').click(function(){
-    $('#form_estado').val('Sergipe');
+    $('#form_assunto').val('Sergipe');
     $('#uf').text('Sergipe');
 });
 
 $('#uf-ba').click(function(){
-    $('#form_estado').val('Bahia');
+    $('#form_assunto').val('Bahia');
     $('#uf').text('Bahia');
 });
 
 $('#uf-go').click(function(){
-    $('#form_estado').val('Goiás');
+    $('#form_assunto').val('Goiás');
     $('#uf').text('Goiás');
 });
 
 $('#uf-es').click(function(){
-    $('#form_estado').val('Espírito Santo');
+    $('#form_assunto').val('Espírito Santo');
     $('#uf').text('Espírito Santo');
 });
 
 $('#uf-mg').click(function(){
-    $('#form_estado').val('Minas Gerais');
+    $('#form_assunto').val('Minas Gerais');
     $('#uf').text('Minas Gerais');
 });
 
 $('#uf-rj').click(function(){
-    $('#form_estado').val('Rio de Janeiro');
+    $('#form_assunto').val('Rio de Janeiro');
     $('#uf').text('Rio de Janeiro');
 });
 
 $('#uf-sp').click(function(){
-    $('#form_estado').val('São Paulo');
+    $('#form_assunto').val('São Paulo');
     $('#uf').text('São Paulo');
 });
 
 $('#uf-pr').click(function(){
-    $('#form_estado').val('Paraná');
+    $('#form_assunto').val('Paraná');
     $('#uf').text('Paraná');
 });
 
 $('#uf-sc').click(function(){
-    $('#form_estado').val('Santa Catarina');
+    $('#form_assunto').val('Santa Catarina');
     $('#uf').text('Santa Catarina');
 });
 
 $('#uf-rs').click(function(){
-    $('#form_estado').val('Rio Grande do Sul');
+    $('#form_assunto').val('Rio Grande do Sul');
     $('#uf').text('Rio Grande do Sul');
 });
 
@@ -272,3 +272,5 @@ $(document).ready(function() {
         $(this).addClass("active");     
     });
 });
+
+// File upload validator

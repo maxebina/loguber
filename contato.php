@@ -42,8 +42,8 @@
                             </div>
                             <div class="col-md-5">
                                 <div class="form-group">
-                                    <label for="form_estado">Assunto *</label>
-                                    <input id="form_estado" type="text" name="estado" class="form-control" placeholder="Preencha o assunto *" required="required" data-error="Assunto é um campo obrigatório.">
+                                    <label for="form_assunto">Assunto *</label>
+                                    <input id="form_assunto" type="text" name="assunto" class="form-control" placeholder="Preencha o assunto *" required="required" data-error="Assunto é um campo obrigatório.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
