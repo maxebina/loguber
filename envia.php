@@ -32,6 +32,7 @@ if (isset($_POST['firstname'])) {
     try {
         $subject = 'Tenho interesse em fazer parte da LOGUBER';
         mail("operacional@loguber.com.br , maxebina@gmail.com", $subject, $nmessage, $header);
+        // mail("operacional@loguber.com.br , maxebina@gmail.com", $subject, $nmessage, $header);
         echo json_encode(
             [
                 'massage' => 'Obrigado por entrar em contato',

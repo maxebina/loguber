@@ -96,9 +96,17 @@
 
                         <div id="tab-2">
                             <form id="contact-form" method="post" action="contact.php" role="form">
-
-                                <div class="messages"></div>
                                 
+                                 <div class="dn">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input id="form_assunto" type="text" name="assunto" class="form-control" value="Cadastro de motorista autônomo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -185,11 +193,11 @@
     
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="antt" id="form_antt" data-error="Escolha uma das duas opções" required>
+                                                    <input type="radio" value="Sim" name="antt" id="form_antt" data-error="Escolha uma das duas opções" required>
                                                     Sim
                                                 </label>
                                                 <label>
-                                                    <input type="radio" name="antt" id="form_antt" data-error="Escolha uma das duas opções" required>
+                                                    <input type="radio" value="Não" name="antt" id="form_antt" data-error="Escolha uma das duas opções" required>
                                                     Não
                                                 </label>
                                             </div>
@@ -205,51 +213,51 @@
 
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" name="3x4" id="form_veiculos">
+                                            <input type="checkbox" name="veiculos" id="form_veiculos" value="3x4">
                                             3x4
                                         </label>
                                         <label>
-                                            <input type="checkbox" name="carreta" id="form_veiculos">
+                                            <input type="checkbox" name="veiculos" id="form_veiculos" value="Carreta">
                                             Carreta
                                         </label>
                                         <label>
-                                            <input type="checkbox" name="passeio" id="form_veiculos">
+                                            <input type="checkbox" name="veiculos" id="form_veiculos" value="Carro de passeio">
                                             Carro de passeio
                                         </label>
                                         <label>
-                                            <input type="checkbox" name="fiorino" id="form_veiculos">
+                                            <input type="checkbox" name="veiculos" id="form_veiculos" value="Fiorino">
                                             Fiorino
                                         </label>
                                         <label>
-                                            <input type="checkbox" name="kombi" id="form_veiculos">
+                                            <input type="checkbox" name="veiculos" id="form_veiculos" value="Kombi">
                                             Kombi
                                         </label>
                                         <label>
-                                            <input type="checkbox" name="moto" id="form_veiculos">
+                                            <input type="checkbox" name="veiculos" id="form_veiculos" value="Moto">
                                             Moto
                                         </label>
                                         <label>
-                                            <input type="checkbox" name="toco" id="form_veiculos">
+                                            <input type="checkbox" name="veiculos" id="form_veiculos" value="Toco">
                                             Toco
                                         </label>
                                         <label>
-                                            <input type="checkbox" name="truck" id="form_veiculos">
+                                            <input type="checkbox" name="veiculos" id="form_veiculos" value="Truck">
                                             Truck
                                         </label>
                                         <label>
-                                            <input type="checkbox" name="vuchr" id="form_veiculos">
+                                            <input type="checkbox" name="veiculos" id="form_veiculos" value="VUC HR">
                                             VUC HR
                                         </label>
                                         <label>
-                                            <input type="checkbox" name="vuciveco" id="form_veiculos">
+                                            <input type="checkbox" name="veiculos" id="form_veiculos" value="VUC Iveco">
                                             VUC Iveco
                                         </label>
                                         <label>
-                                            <input type="checkbox" name="vuc" id="form_veiculos">
+                                            <input type="checkbox" name="veiculos" id="form_veiculos" value="VUC">
                                             VUC
                                         </label>
                                         <label>
-                                            <input type="checkbox" name="van" id="form_veiculos">
+                                            <input type="checkbox" name="veiculos" id="form_veiculos" value="Van">
                                             Van
                                         </label>
                                     </div>
@@ -271,49 +279,49 @@
 
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" name="ate30" id="form_interesse">
+                                            <input type="checkbox" name="interesse" id="form_interesse" value="Entrega de pedidos leves (até 30kg)">
                                             Entrega de pedidos leves (até 30kg)
                                         </label>
                                     </div>
 
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" name="+30" id="form_interesse">
+                                            <input type="checkbox" name="+interesse" id="form_interesse" value="Entrega de pedidos pesados (+30kg)">
                                             Entrega de pedidos pesados (+30kg)
                                         </label>
                                     </div>
 
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" name="armazenagem" id="form_interesse">
+                                            <input type="checkbox" name="interesse" id="form_interesse" value="Serviços de armazenagem">
                                             Serviços de armazenagem
                                         </label>
                                     </div>
 
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" name="leveate30" id="form_interesse">
+                                            <input type="checkbox" name="interesse" id="form_interesse" value="Coleta de pedidos leves (até 30kg)">
                                             Coleta de pedidos leves (até 30kg)
                                         </label>
                                     </div>
 
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" name="pesado+30" id="form_interesse">
+                                            <input type="checkbox" name="interesse" id="form_interesse" value="Coleta de pedidos pesados (+30kg)">
                                             Coleta de pedidos pesados (+30kg)
                                         </label>
                                     </div>
 
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" name="transferencias" id="form_interesse">
+                                            <input type="checkbox" name="interesse" id="form_interesse" value="Transferências e Abastecimento">
                                             Transferências e Abastecimento
                                         </label>
                                     </div>
 
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" name="operacoes" id="form_interesse">
+                                            <input type="checkbox" name="interesse" id="form_interesse" value="Operações Especiais">
                                             Operações Especiais
                                         </label>
                                     </div>
@@ -332,6 +340,8 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="messages"></div>
 
                                 <div class="row">
                                     <div class="col-md-12">
