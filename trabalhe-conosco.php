@@ -166,23 +166,6 @@
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-
-                                        <div class="form-group">
-
-                                            <label for="form_funcionarios">Nº de funcionários *</label>
-
-                                            <select name="funcionarios" id="form_funcionarios" class="form-control chosen" data-placeholder="[Nº de funcionários]" data-error="Selecione uma opção" required>
-                                                <option value="">Selecione uma opção</option>
-                                                <option value="Até 5 funcionários">Até 5 funcionários</option>
-                                                <option value="de 5 a 10 funcionários">de 5 a 10 funcionários</option>
-                                                <option value="de 10 a 30 funcionários">de 10 a 30 funcionários</option>
-                                                <option value="Mais de 30 funcionários">Mais de 30 funcionários</option>
-                                                </select>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-
-                                    </div>
                                 </div>
 
                                 <div class="row">
@@ -275,7 +258,7 @@
 
                                 <div class="form-group">
 
-                                    <div><strong>Estou interessado em:</strong></div>
+                                    <!-- <div><strong>Estou interessado em:</strong></div>
 
                                     <div class="checkbox">
                                         <label>
@@ -324,7 +307,7 @@
                                             <input type="checkbox" name="interesse" id="form_interesse" value="Operações Especiais">
                                             Operações Especiais
                                         </label>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
