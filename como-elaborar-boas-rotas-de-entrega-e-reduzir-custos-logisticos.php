@@ -1,5 +1,5 @@
 	<?php $thisPage="Notícias"; ?>
-    <?php $your_meta_description="Descrição aqui"; ?>
+    <?php $your_meta_description="Como elaborar boas rotas de entrega e reduzir custos logísticos?"; ?>
 	<?php include("header.php"); ?>
 		<div class="page noticias">
     		<div class="banner-page banner-noticias">
